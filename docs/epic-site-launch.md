@@ -28,13 +28,13 @@
 ## Sprint 1 — Production Foundation (~3 hrs)
 **Goal:** Set up version control, project structure, and production-ready tooling
 
-- [ ] Initialize Git repo
-- [ ] Set up `.gitignore` (`.env`, `.DS_Store`, `node_modules/`, etc.)
-- [ ] Self-host fonts — download EB Garamond, Cinzel, Lato as WOFF2 files, remove Google Fonts CDN link
-- [ ] Create `fonts/` directory with font files and `@font-face` declarations
-- [ ] Add favicon (text placeholder or logo if received)
-- [ ] Verify the site works fully offline (no external dependencies except CanadaHelps link)
-- [ ] Set up basic directory structure for production:
+- [x] Initialize Git repo
+- [x] Set up `.gitignore` (`.env`, `.DS_Store`, DreamHost server files, etc.)
+- [x] Self-host fonts — downloaded EB Garamond, Cinzel, Lato as WOFF2 files, removed Google Fonts CDN link
+- [x] Create `fonts/` directory with font files and `@font-face` declarations
+- [x] Add favicon (copied from current live site backup)
+- [x] Verify the site works fully offline (no external dependencies except outbound links)
+- [x] Set up basic directory structure for production:
   ```
   nhshc.ca/
   ├── index.html
