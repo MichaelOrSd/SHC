@@ -1,0 +1,31 @@
+# Sensitive credentials
+.env
+.env.*
+*.key
+*.pem
+*.p12
+credentials.*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+
+# Claude Code
+.claude/settings.local.json
+
+# DreamHost server files (from SFTP backup — not project files)
+backup/live-site/logs/
+backup/live-site/.alias
+backup/live-site/.bash_profile
+backup/live-site/.bashrc
+backup/live-site/.cshrc
+backup/live-site/.kshrc
+backup/live-site/.zshrc
+backup/live-site/.cache/
+backup/live-site/.php/
+backup/live-site/nhshc.ca/.dh-diag/

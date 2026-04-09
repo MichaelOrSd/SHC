@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sacred Heart Church — North Harbour, NL</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Source+Sans+3:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --red: #8B0000;
+    --red-light: #A52A2A;
+    --red-dark: #6B0000;
+    --cream: #FFF8F0;
+    --cream-warm: #FFF3E4;
+    --gold: #C8A45A;
+    --gold-light: #DABB7A;
+    --gold-muted: rgba(200,164,90,0.2);
+    --text-dark: #2C1810;
+    --text-body: #4A3728;
+    --text-light: #7A6558;
+    --white: #FFFFFF;
+    --shadow-card: 0 4px 24px rgba(44,24,16,0.08);
+    --shadow-lift: 0 8px 32px rgba(44,24,16,0.12);
+    --radius: 16px;
+    --radius-sm: 10px;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+
+  body {
+    font-family: 'Source Sans 3', 'Segoe UI', sans-serif;
+    color: var(--text-body);
+    background: var(--cream);
+    font-size: 17px;
+    line-height: 1.7;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* ═══ NAV ═══ */
+  nav {
+    position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+    background: rgba(255,248,240,0.92);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-bottom: 1px solid rgba(139,0,0,0.08);
+    transition: box-shadow 0.3s ease;
+  }
+  nav.scrolled { box-shadow: 0 2px 24px rgba(44,24,16,0.08); }
+
+  .nav-inner {
+    max-width: 1100px; margin: 0 auto; padding: 14px 28px;
+    display: flex; align-items: center; justify-content: space-between;
+  }
+  .nav-brand {
+    font-family: 'Lora', Georgia, serif; font-size: 1.05rem;
+    font-weight: 600; color: var(--red); text-decoration: none;
+  }
+  .nav-brand span { color: var(--gold); }
+  .nav-links { display: flex; gap: 28px; list-style: none; }
+  .nav-links a {
+    text-decoration: none; color: var(--text-light);
+    font-size: 0.9rem; font-weight: 500; transition: color 0.2s;
+  }
+  .nav-links a:hover { color: var(--red); }
+
+  .hamburger {
+    display: none; background: none; border: none; cursor: pointer; padding: 4px;
+  }
+  .hamburger svg { width: 26px; height: 26px; color: var(--red); }
+
+  .mobile-menu {
+    display: none; position: fixed; top: 56px; left: 0; right: 0;
+    background: var(--cream); border-bottom: 2px solid var(--gold-muted);
+    padding: 20px 28px; box-shadow: var(--shadow-lift); z-index: 99;
+  }
+  .mobile-menu.open { display: block; }
+  .mobile-menu a {
+    display: block; padding: 12px 0; text-decoration: none;
+    color: var(--text-body); font-size: 1rem; font-weight: 500;
+    border-bottom: 1px solid rgba(139,0,0,0.06);
+  }
+  .mobile-menu a:last-child { border: none; }
+
+  /* ═══ HERO ═══ */
+  .hero {
+    min-height: 100vh; display: flex; flex-direction: column;
+    align-items: center; justify-content: center; text-align: center;
+    padding: 120px 28px 80px; position: relative; overflow: hidden;
+    background:
+      radial-gradient(ellipse 80% 60% at 50% 40%, rgba(139,0,0,0.06) 0%, transparent 70%),
+      radial-gradient(ellipse 50% 40% at 80% 70%, rgba(200,164,90,0.08) 0%, transparent 60%),
+      var(--cream);
+  }
+  .hero::before {
+    content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0;
+    background-image:
+      radial-gradient(circle at 20% 30%, rgba(139,0,0,0.03) 1px, transparent 1px),
+      radial-gradient(circle at 80% 70%, rgba(200,164,90,0.04) 1px, transparent 1px);
+    background-size: 60px 60px, 80px 80px; opacity: 0.7;
+  }
+  .hero-icon {
+    position: relative; width: 80px; height: 80px; margin-bottom: 32px;
+    animation: fadeInDown 0.8s ease-out;
+  }
+  .hero-icon svg { width: 100%; height: 100%; }
+  .hero h1 {
+    font-family: 'Lora', Georgia, serif;
+    font-size: clamp(2.2rem, 5vw, 3.4rem);
+    color: var(--red); font-weight: 700; line-height: 1.2;
+    margin-bottom: 8px; position: relative; animation: fadeInUp 0.8s ease-out;
+  }
+  .hero-location {
+    font-family: 'Lora', Georgia, serif;
+    font-size: clamp(1rem, 2.2vw, 1.25rem);
+    color: var(--gold); font-weight: 500; font-style: italic;
+    margin-bottom: 28px; animation: fadeInUp 0.8s ease-out 0.1s both;
+  }
+  .hero-message {
+    max-width: 560px; font-size: 1.1rem; color: var(--text-body);
+    line-height: 1.8; margin-bottom: 40px; position: relative;
+    animation: fadeInUp 0.8s ease-out 0.2s both;
+  }
+  .hero-divider {
+    width: 60px; height: 3px;
+    background: linear-gradient(90deg, var(--gold), var(--gold-light));
+    border-radius: 2px; margin-bottom: 40px;
+    animation: fadeInUp 0.8s ease-out 0.15s both;
+  }
+  .hero-cta {
+    display: inline-flex; align-items: center; gap: 10px;
+    background: var(--red); color: var(--cream); text-decoration: none;
+    padding: 14px 32px; border-radius: 50px; font-weight: 600;
+    font-size: 0.95rem; transition: all 0.3s ease;
+    box-shadow: 0 4px 16px rgba(139,0,0,0.2);
+    animation: fadeInUp 0.8s ease-out 0.3s both;
+  }
+  .hero-cta:hover {
+    background: var(--red-light); transform: translateY(-2px);
+    box-shadow: 0 6px 24px rgba(139,0,0,0.25);
+  }
+  .hero-cta svg { width: 16px; height: 16px; }
+  .scroll-hint {
+    position: absolute; bottom: 40px;
+    animation: bounce 2s infinite 1.5s; opacity: 0.4;
+  }
+  .scroll-hint svg { width: 24px; height: 24px; color: var(--red); }
+
+  /* ═══ SECTIONS ═══ */
+  section { padding: 80px 28px; }
+  .section-inner { max-width: 860px; margin: 0 auto; }
+  .section-label {
+    font-family: 'Source Sans 3', sans-serif; font-size: 0.78rem;
+    font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase;
+    color: var(--gold); margin-bottom: 12px;
+  }
+  .section-title {
+    font-family: 'Lora', Georgia, serif;
+    font-size: clamp(1.7rem, 3.5vw, 2.3rem);
+    color: var(--red-dark); font-weight: 700; line-height: 1.25; margin-bottom: 24px;
+  }
+  .section-text {
+    color: var(--text-body); line-height: 1.85; margin-bottom: 20px; max-width: 680px;
+  }
+
+  /* ═══ COMMUNITY ═══ */
+  .community-section {
+    background: var(--white);
+    border-top: 1px solid rgba(139,0,0,0.05);
+    border-bottom: 1px solid rgba(139,0,0,0.05);
+  }
+  .values-row {
+    display: grid; grid-template-columns: repeat(3, 1fr);
+    gap: 24px; margin-top: 40px;
+  }
+  .value-card {
+    background: var(--cream); border-radius: var(--radius);
+    padding: 28px 24px; text-align: center;
+    border: 1px solid rgba(139,0,0,0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .value-card:hover { transform: translateY(-3px); box-shadow: var(--shadow-card); }
+  .value-icon {
+    width: 44px; height: 44px; margin: 0 auto 16px;
+    background: var(--gold-muted); border-radius: 12px;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .value-icon svg { width: 22px; height: 22px; color: var(--gold); }
+  .value-card h3 {
+    font-family: 'Lora', Georgia, serif; font-size: 1.05rem;
+    color: var(--red-dark); font-weight: 600; margin-bottom: 8px;
+  }
+  .value-card p { font-size: 0.9rem; color: var(--text-light); line-height: 1.65; }
+
+  /* ═══ LEADERSHIP ═══ */
+  .leadership-section { background: var(--cream); }
+  .board-grid {
+    display: grid; grid-template-columns: repeat(2, 1fr);
+    gap: 20px; margin-top: 36px; max-width: 680px;
+  }
+  .board-card {
+    background: var(--white); border-radius: var(--radius); padding: 28px;
+    border: 1px solid rgba(139,0,0,0.06);
+    transition: all 0.3s ease; position: relative; overflow: hidden;
+  }
+  .board-card::before {
+    content: ''; position: absolute; top: 0; left: 0;
+    width: 4px; height: 100%;
+    background: linear-gradient(180deg, var(--gold), var(--gold-light));
+    border-radius: 0 2px 2px 0;
+  }
+  .board-card:hover { box-shadow: var(--shadow-card); transform: translateY(-2px); }
+  .board-role {
+    font-size: 0.78rem; font-weight: 600; letter-spacing: 0.08em;
+    text-transform: uppercase; color: var(--gold); margin-bottom: 6px;
+  }
+  .board-name {
+    font-family: 'Lora', Georgia, serif; font-size: 1.15rem;
+    font-weight: 600; color: var(--text-dark);
+  }
+  .governance-note {
+    margin-top: 32px; padding: 20px 24px; background: var(--gold-muted);
+    border-radius: var(--radius-sm); font-size: 0.92rem;
+    color: var(--text-body); line-height: 1.7; border-left: 3px solid var(--gold);
+  }
+
+  /* ═══ CEMETERY ═══ */
+  .cemetery-section {
+    background: var(--white);
+    border-top: 1px solid rgba(139,0,0,0.05);
+    border-bottom: 1px solid rgba(139,0,0,0.05);
+  }
+  .cemetery-highlight {
+    margin-top: 32px;
+    background: linear-gradient(135deg, var(--red), var(--red-dark));
+    color: var(--cream); border-radius: var(--radius);
+    padding: 36px 32px; position: relative; overflow: hidden;
+  }
+  .cemetery-highlight::before {
+    content: ''; position: absolute; top: -50%; right: -20%;
+    width: 300px; height: 300px;
+    background: radial-gradient(circle, rgba(200,164,90,0.12) 0%, transparent 70%);
+  }
+  .cemetery-highlight h3 {
+    font-family: 'Lora', Georgia, serif; font-size: 1.2rem;
+    font-weight: 600; margin-bottom: 12px; position: relative;
+  }
+  .cemetery-highlight p {
+    font-size: 0.95rem; line-height: 1.75; opacity: 0.92;
+    position: relative; margin-bottom: 20px;
+  }
+  .cemetery-link {
+    display: inline-flex; align-items: center; gap: 8px;
+    color: var(--gold-light); text-decoration: none;
+    font-weight: 600; font-size: 0.92rem; transition: color 0.2s; position: relative;
+  }
+  .cemetery-link:hover { color: var(--cream); }
+  .cemetery-link svg { width: 16px; height: 16px; }
+
+  /* ═══ DONATE ═══ */
+  .donate-section { background: var(--cream); }
+  .donate-grid {
+    display: grid; grid-template-columns: repeat(2, 1fr);
+    gap: 24px; margin-top: 36px; max-width: 680px;
+  }
+  .donate-card {
+    background: var(--white); border-radius: var(--radius); padding: 28px;
+    border: 1px solid rgba(139,0,0,0.06); text-align: center;
+  }
+  .donate-card h3 {
+    font-family: 'Lora', Georgia, serif; font-size: 1.05rem;
+    color: var(--red-dark); font-weight: 600; margin-bottom: 10px;
+  }
+  .donate-card p {
+    font-size: 0.9rem; color: var(--text-light); line-height: 1.65; margin-bottom: 14px;
+  }
+  .donate-email {
+    display: inline-block; background: var(--cream-warm); padding: 8px 16px;
+    border-radius: 8px; font-weight: 600; color: var(--red);
+    font-size: 0.92rem; word-break: break-all;
+  }
+  .donate-address {
+    font-size: 0.9rem; color: var(--text-body); line-height: 1.7; font-weight: 500;
+  }
+
+  /* ═══ NEWSLETTER ═══ */
+  .newsletter-section {
+    background: linear-gradient(135deg, var(--red), var(--red-dark));
+    color: var(--cream); text-align: center; padding: 72px 28px;
+  }
+  .newsletter-section .section-label { color: var(--gold-light); }
+  .newsletter-section .section-title { color: var(--cream); }
+  .newsletter-section .section-text {
+    color: rgba(255,248,240,0.85); margin: 0 auto 32px; max-width: 480px;
+  }
+  .newsletter-form { display: flex; gap: 12px; max-width: 440px; margin: 0 auto; }
+  .newsletter-form input {
+    flex: 1; padding: 14px 20px;
+    border: 2px solid rgba(255,248,240,0.2); border-radius: 50px;
+    background: rgba(255,248,240,0.1); color: var(--cream);
+    font-size: 0.95rem; font-family: inherit; outline: none; transition: border-color 0.3s;
+  }
+  .newsletter-form input::placeholder { color: rgba(255,248,240,0.45); }
+  .newsletter-form input:focus { border-color: var(--gold); }
+  .newsletter-form button {
+    padding: 14px 28px; background: var(--gold); color: var(--text-dark);
+    border: none; border-radius: 50px; font-weight: 600; font-size: 0.92rem;
+    cursor: pointer; transition: all 0.3s ease; font-family: inherit; white-space: nowrap;
+  }
+  .newsletter-form button:hover { background: var(--gold-light); transform: translateY(-1px); }
+
+  /* ═══ FOOTER ═══ */
+  footer {
+    background: var(--text-dark); color: rgba(255,248,240,0.6); padding: 56px 28px 32px;
+  }
+  .footer-inner { max-width: 900px; margin: 0 auto; }
+  .footer-grid {
+    display: grid; grid-template-columns: 1.4fr 1fr 1fr;
+    gap: 40px; margin-bottom: 40px;
+  }
+  .footer-brand {
+    font-family: 'Lora', Georgia, serif; font-size: 1.1rem;
+    color: var(--cream); font-weight: 600; margin-bottom: 12px;
+  }
+  .footer-brand span { color: var(--gold); }
+  footer p { font-size: 0.88rem; line-height: 1.7; }
+  .footer-heading {
+    font-family: 'Lora', Georgia, serif; font-size: 0.92rem;
+    color: var(--cream); font-weight: 600; margin-bottom: 14px;
+  }
+  .footer-links { list-style: none; }
+  .footer-links li { margin-bottom: 8px; }
+  .footer-links a {
+    color: rgba(255,248,240,0.5); text-decoration: none;
+    font-size: 0.88rem; transition: color 0.2s;
+  }
+  .footer-links a:hover { color: var(--gold); }
+  .footer-bottom {
+    border-top: 1px solid rgba(255,248,240,0.08); padding-top: 24px;
+    text-align: center; font-size: 0.82rem; color: rgba(255,248,240,0.35);
+  }
+
+  /* ═══ ANIMATIONS ═══ */
+  @keyframes fadeInUp {
+    from { opacity: 0; transform: translateY(24px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  @keyframes fadeInDown {
+    from { opacity: 0; transform: translateY(-16px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+    40% { transform: translateY(-8px); }
+    60% { transform: translateY(-4px); }
+  }
+  .reveal {
+    opacity: 0; transform: translateY(28px);
+    transition: opacity 0.7s ease, transform 0.7s ease;
+  }
+  .reveal.visible { opacity: 1; transform: translateY(0); }
+
+  /* ═══ RESPONSIVE ═══ */
+  @media (max-width: 768px) {
+    .nav-links { display: none; }
+    .hamburger { display: block; }
+    .values-row { grid-template-columns: 1fr; gap: 16px; }
+    .board-grid { grid-template-columns: 1fr; }
+    .donate-grid { grid-template-columns: 1fr; }
+    .footer-grid { grid-template-columns: 1fr; gap: 28px; }
+    .newsletter-form { flex-direction: column; }
+    .newsletter-form button { width: 100%; }
+    section { padding: 60px 20px; }
+    .hero { padding: 100px 20px 70px; }
+  }
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav id="navbar">
+  <div class="nav-inner">
+    <a href="#" class="nav-brand">Sacred Heart <span>&#10022;</span> North Harbour</a>
+    <ul class="nav-links">
+      <li><a href="#community">Our Community</a></li>
+      <li><a href="#leadership">Leadership</a></li>
+      <li><a href="#cemetery">Cemetery</a></li>
+      <li><a href="#support">Support Us</a></li>
+      <li><a href="#connect">Stay Connected</a></li>
+    </ul>
+    <button class="hamburger" onclick="toggleMenu()" aria-label="Menu">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+    </button>
+  </div>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#community" onclick="closeMenu()">Our Community</a>
+    <a href="#leadership" onclick="closeMenu()">Leadership</a>
+    <a href="#cemetery" onclick="closeMenu()">Cemetery</a>
+    <a href="#support" onclick="closeMenu()">Support Us</a>
+    <a href="#connect" onclick="closeMenu()">Stay Connected</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-icon">
+    <svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="40" cy="40" r="38" stroke="#C8A45A" stroke-width="1.5" opacity="0.4"/>
+      <path d="M40 18C40 18 26 28 26 38C26 44 30 50 36 52L36 56L40 62L44 56L44 52C50 50 54 44 54 38C54 28 40 18 40 18Z" fill="#8B0000" opacity="0.9"/>
+      <path d="M40 26C40 26 32 32 32 38C32 42 35 46 38 47.5L38 52L40 56L42 52L42 47.5C45 46 48 42 48 38C48 32 40 26 40 26Z" fill="#C8A45A" opacity="0.5"/>
+      <circle cx="40" cy="38" r="3" fill="#FFF8F0"/>
+    </svg>
+  </div>
+  <h1>Sacred Heart Church</h1>
+  <div class="hero-location">North Harbour, St. Mary&#8217;s Bay, Newfoundland</div>
+  <div class="hero-divider"></div>
+  <p class="hero-message">
+    Welcome to our parish family. Since the 1950s, our community has gathered here in faith, friendship, and care for one another. Our doors &#8212; and hearts &#8212; are always open.
+  </p>
+  <a href="#community" class="hero-cta">
+    Come on in
+    <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 3v10M3 8l5 5 5-5"/></svg>
+  </a>
+  <div class="scroll-hint">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+  </div>
+</section>
+
+<!-- OUR COMMUNITY -->
+<section class="community-section" id="community">
+  <div class="section-inner reveal">
+    <div class="section-label">Our Community</div>
+    <h2 class="section-title">Built by Hand, Bound by Heart</h2>
+    <p class="section-text">
+      In the early 1950s, the families of North Harbour came together with a shared vision: to build a place of worship and community in the heart of St. Mary&#8217;s Bay. They pooled their resources, purchased the land, and raised Sacred Heart Church with their own hands.
+    </p>
+    <p class="section-text">
+      That same spirit lives on today. Our parish isn&#8217;t defined by a building &#8212; it&#8217;s defined by the people who fill it. Neighbours helping neighbours, volunteers giving their time, and a community that has never forgotten the value of kindness, welcoming, and care.
+    </p>
+    <p class="section-text">
+      Whether you&#8217;re a lifelong parishioner or visiting for the first time, you&#8217;re part of this story. North Harbour has always had room for one more.
+    </p>
+
+    <div class="values-row">
+      <div class="value-card">
+        <div class="value-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/></svg>
+        </div>
+        <h3>Welcoming</h3>
+        <p>Everyone belongs here. Our community has always embraced newcomers like family.</p>
+      </div>
+      <div class="value-card">
+        <div class="value-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78L12 21.23l8.84-8.84a5.5 5.5 0 000-7.78z"/></svg>
+        </div>
+        <h3>Caring</h3>
+        <p>From church suppers to quiet check-ins, looking out for each other is what we do.</p>
+      </div>
+      <div class="value-card">
+        <div class="value-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        </div>
+        <h3>Enduring</h3>
+        <p>Seven decades of faith and fellowship, built to last by the people who call this home.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- LEADERSHIP -->
+<section class="leadership-section" id="leadership">
+  <div class="section-inner reveal">
+    <div class="section-label">Leadership</div>
+    <h2 class="section-title">Your Board of Directors</h2>
+    <p class="section-text">
+      Sacred Heart Church is governed by a volunteer Board of Directors &#8212; neighbours who give their time to keep our parish running with transparency, care, and accountability.
+    </p>
+
+    <div class="board-grid">
+      <div class="board-card">
+        <div class="board-role">President</div>
+        <div class="board-name">Terry Power</div>
+      </div>
+      <div class="board-card">
+        <div class="board-role">Chairperson</div>
+        <div class="board-name">Maryann Butt</div>
+      </div>
+      <div class="board-card">
+        <div class="board-role">Treasurer</div>
+        <div class="board-name">Mary McGrath</div>
+      </div>
+      <div class="board-card">
+        <div class="board-role">Secretary</div>
+        <div class="board-name">Lorraine Power</div>
+      </div>
+    </div>
+
+    <div class="governance-note">
+      <strong>Open &amp; Accountable.</strong> Our governing documents &#8212; including our Articles of Incorporation, Bylaws, and Financial Statements &#8212; are available for any community member to review. We believe in full transparency.
+    </div>
+  </div>
+</section>
+
+<!-- CEMETERY -->
+<section class="cemetery-section" id="cemetery">
+  <div class="section-inner reveal">
+    <div class="section-label">Heritage &amp; Remembrance</div>
+    <h2 class="section-title">Cemetery Restoration</h2>
+    <p class="section-text">
+      The Sacred Heart Cemetery is more than a resting place &#8212; it&#8217;s a record of every family that helped shape North Harbour. Restoring and maintaining these grounds is an act of respect for the generations who came before us.
+    </p>
+    <p class="section-text">
+      Much of this restoration work has been carried out by hand, with Terry Power dedicating countless hours of personal labour to clearing, repairing, and honouring these sacred grounds. It&#8217;s the kind of quiet, steady commitment that defines this community.
+    </p>
+
+    <div class="cemetery-highlight">
+      <h3>Gravesites Database</h3>
+      <p>
+        Shawn Power has compiled a searchable database of gravesites at Sacred Heart Cemetery &#8212; an invaluable resource for families researching their North Harbour roots and heritage.
+      </p>
+      <a href="#" class="cemetery-link">
+        Explore the gravesites database
+        <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- SUPPORT / DONATE -->
+<section class="donate-section" id="support">
+  <div class="section-inner reveal">
+    <div class="section-label">Support Us</div>
+    <h2 class="section-title">Help Keep Our Community Strong</h2>
+    <p class="section-text">
+      Every dollar goes directly to maintaining our church, restoring the cemetery, and supporting the programs that bring North Harbour together. This isn&#8217;t just about a building &#8212; it&#8217;s about the people inside it.
+    </p>
+
+    <div class="donate-grid">
+      <div class="donate-card">
+        <h3>E-Transfer</h3>
+        <p>Send an Interac e-Transfer directly to our parish account:</p>
+        <div class="donate-email">nhChurch@nhshc.ca</div>
+      </div>
+      <div class="donate-card">
+        <h3>Mail a Donation</h3>
+        <p>Cheques can be mailed to:</p>
+        <div class="donate-address">
+          Sacred Heart Church<br>
+          North Harbour, NL<br>
+          A0B 2V0
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- NEWSLETTER -->
+<section class="newsletter-section" id="connect">
+  <div class="section-inner reveal">
+    <div class="section-label">Stay Connected</div>
+    <h2 class="section-title">Join Our Parish Family</h2>
+    <p class="section-text">
+      Get updates on community events, restoration progress, and parish news delivered to your inbox.
+    </p>
+    <div class="newsletter-form">
+      <input type="email" placeholder="Your email address" aria-label="Email address">
+      <button type="button" onclick="handleSubscribe()">Subscribe</button>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand">Sacred Heart Church <span>&#10022;</span></div>
+        <p>North Harbour, St. Mary&#8217;s Bay<br>Newfoundland &amp; Labrador, Canada<br>A0B 2V0</p>
+        <p style="margin-top:12px;">
+          <a href="mailto:nhshcinfo@gmail.com" style="color:var(--gold);text-decoration:none;">nhshcinfo@gmail.com</a>
+        </p>
+      </div>
+      <div>
+        <div class="footer-heading">Documents</div>
+        <ul class="footer-links">
+          <li><a href="#">Articles of Incorporation</a></li>
+          <li><a href="#">Financial Statements</a></li>
+          <li><a href="#">Bylaws</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="footer-heading">Navigate</div>
+        <ul class="footer-links">
+          <li><a href="#community">Our Community</a></li>
+          <li><a href="#leadership">Leadership</a></li>
+          <li><a href="#cemetery">Cemetery</a></li>
+          <li><a href="#support">Support Us</a></li>
+          <li><a href="#">News &amp; Updates</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      &copy; 2026 Sacred Heart Church, North Harbour. All rights reserved.
+    </div>
+  </div>
+</footer>
+
+<script>
+  window.addEventListener('scroll', function() {
+    document.getElementById('navbar').classList.toggle('scrolled', window.scrollY > 20);
+  });
+
+  function toggleMenu() {
+    document.getElementById('mobileMenu').classList.toggle('open');
+  }
+  function closeMenu() {
+    document.getElementById('mobileMenu').classList.remove('open');
+  }
+
+  var observer = new IntersectionObserver(function(entries) {
+    entries.forEach(function(entry) {
+      if (entry.isIntersecting) { entry.target.classList.add('visible'); }
+    });
+  }, { threshold: 0.15 });
+
+  document.querySelectorAll('.reveal').forEach(function(el) { observer.observe(el); });
+
+  function handleSubscribe() {
+    var input = document.querySelector('.newsletter-form input');
+    if (input.value && input.value.indexOf('@') > -1) {
+      input.value = '';
+      alert('Thank you for joining our parish family! You will hear from us soon.');
+    } else {
+      alert('Please enter a valid email address.');
+    }
+  }
+</script>
+</body>
+</html>
