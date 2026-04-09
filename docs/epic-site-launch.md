@@ -105,19 +105,22 @@
 ---
 
 ## Sprint 5 — Deployment & Go Live (~2 hrs)
-**Goal:** Deploy to DreamHost and make the site live at nhshc.ca
+**Goal:** Deploy to GitHub Pages, update DNS, make site live at nhshc.ca
 
-- [ ] SFTP into DreamHost — confirm panel access and directory structure
-- [ ] Back up the existing live site (already done — `backup/live-site/`)
-- [ ] Upload production files to DreamHost via SFTP
-- [ ] Verify site loads at nhshc.ca
-- [ ] Test all links, forms, and navigation on the live site
-- [ ] Verify SSL/HTTPS is active (DreamHost Let's Encrypt)
-- [ ] Set up www → non-www redirect (or vice versa) if not already configured
+- [ ] Create GitHub repo (public) and push code
+- [ ] Enable GitHub Pages (serve from `main` branch, `/site` folder or GitHub Actions)
+- [ ] Verify site loads at GitHub Pages URL (staging)
+- [ ] Confirm DreamHost panel access can manage DNS
+- [ ] Update A/CNAME records on DreamHost to point nhshc.ca to GitHub Pages — leave MX records untouched (email stays on DreamHost)
+- [ ] Add CNAME file in repo with `nhshc.ca`
+- [ ] Wait for DNS propagation, verify nhshc.ca loads from GitHub Pages
+- [ ] Verify HTTPS works (GitHub Pages auto-provisions SSL)
+- [ ] Verify email still works on DreamHost (MX unchanged)
+- [ ] Coordinate with Melvin to downgrade DreamHost to email-only hosting (~$24/yr)
 - [ ] Submit sitemap or URL to Google Search Console (if access available)
 - [ ] Send go-live confirmation to Terry and Mary Ann
 
-**Deliverable:** nhshc.ca is live with the new site
+**Deliverable:** nhshc.ca is live on GitHub Pages, email unchanged on DreamHost
 
 ---
 

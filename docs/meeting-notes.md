@@ -40,14 +40,20 @@
 - Cemetery section uses placeholder copy (awaiting final text)
 - Follow-up email drafted and sent to Terry with action items
 
-### Outstanding Items
-- E-transfer email confirmation (northharbourshc@gmail.com vs nhChurch@nhshc.ca)
-- Final cemetery copy needed
-- CanadaHelps profile confirmation
-- High-res church photos (1920px+)
-- Logo decision
-- Domain ownership clarification
+### Terry's Replies (Apr 9 email)
+1. **E-transfer email: confirmed northharbourshc@gmail.com** — Bill Power set up nhChurch@nhshc.ca. Terry will monitor the gmail going forward.
+2. **Cemetery copy: Ida Linehan will write it** — Terry will introduce Michael to Ida once site is viewable.
+3. **CanadaHelps: confirmed active** — people have donated through it in the past.
+4. **Photos: Terry will work on it** — use existing photos for the demo/initial site.
+5. **Logo: Terry is sorting it out** — "There might be some confusion here. Leave that with me."
+6. **Domain: Melvin Leonard owns nhshc.ca** — offers it free of charge to the church.
+
+### Outstanding Items (updated)
+- Cemetery copy — waiting on Ida Linehan
+- High-res photos — Terry working on it, use existing for now
+- Logo — Terry sorting it out
 - Design approval still pending formal sign-off
+- **Migration planned: GitHub Pages (site) + DreamHost email-only (~$24/yr)** — down from ~$170/yr
 
 ---
 

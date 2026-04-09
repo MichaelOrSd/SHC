@@ -690,15 +690,34 @@ section {
   margin-top: 1.5rem;
 }
 
-.newsletter-form {
-  display: flex;
-  gap: 0;
+/* Kit embed form */
+.kit-form-wrap {
   margin-top: 2.5rem;
-  border: 1px solid rgba(184,150,46,0.4);
 }
 
-.newsletter-form input {
+.kit-form-wrap .newsletter-form {
+  display: flex;
+  gap: 0;
+  border: 1px solid rgba(184,150,46,0.4);
+  max-width: 100%;
+  padding: 0;
+  background: transparent;
+}
+
+.kit-form-wrap .formkit-fields {
+  display: flex;
+  gap: 0;
+  width: 100%;
+  margin: 0;
+}
+
+.kit-form-wrap .formkit-field {
   flex: 1;
+  margin: 0;
+}
+
+.kit-form-wrap .formkit-input {
+  width: 100%;
   background: rgba(255,255,255,0.07);
   border: none;
   outline: none;
@@ -707,11 +726,21 @@ section {
   font-size: 0.9rem;
   color: var(--cream);
   font-weight: 300;
+  border-radius: 0;
+  line-height: 1.4;
+  margin: 0;
 }
 
-.newsletter-form input::placeholder { color: rgba(250,246,238,0.4); }
+.kit-form-wrap .formkit-input::placeholder {
+  color: rgba(250,246,238,0.4);
+}
 
-.newsletter-form button {
+.kit-form-wrap .formkit-input:focus {
+  outline: none;
+  border-color: var(--gold);
+}
+
+.kit-form-wrap .formkit-submit {
   background: var(--gold);
   border: none;
   padding: 0.95rem 1.6rem;
@@ -724,9 +753,52 @@ section {
   cursor: pointer;
   transition: background 0.2s;
   white-space: nowrap;
+  border-radius: 0;
+  margin: 0;
+  line-height: 1.4;
 }
 
-.newsletter-form button:hover { background: var(--gold-light); }
+.kit-form-wrap .formkit-submit:hover {
+  background: var(--gold-light);
+}
+
+.kit-form-wrap .formkit-spinner {
+  display: none;
+}
+
+.kit-form-wrap .formkit-submit[data-active] .formkit-spinner {
+  display: flex;
+}
+
+.kit-form-wrap .formkit-alert-success {
+  background: rgba(184,150,46,0.15);
+  border: 1px solid var(--gold);
+  color: var(--cream);
+  padding: 0.95rem;
+  margin-top: 1rem;
+  font-family: 'EB Garamond', serif;
+  font-size: 1rem;
+  text-align: center;
+  list-style: none;
+  border-radius: 0;
+}
+
+.kit-form-wrap .formkit-alert-error {
+  background: rgba(139,0,0,0.3);
+  border: 1px solid var(--crimson);
+  color: var(--cream);
+  padding: 0.95rem;
+  margin-bottom: 1rem;
+  font-family: 'Lato', sans-serif;
+  font-size: 0.85rem;
+  text-align: center;
+  list-style: none;
+  border-radius: 0;
+}
+
+.kit-form-wrap .formkit-alert:empty {
+  display: none;
+}
 
 .newsletter-privacy {
   font-size: 0.72rem;

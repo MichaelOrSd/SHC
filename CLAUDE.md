@@ -43,7 +43,7 @@ SHC/
 
 - **Tech stack: HTML/CSS/JS (static)** — decided Apr 9. No framework, no build tools. Hosted on DreamHost via SFTP.
 - **Design direction: Classic Heritage + "Built by Hand" section from Modern & Clean** — Terry Power's pick, awaiting final sign-off.
-- **Hosting: DreamHost** — static file hosting. SFTP access available. Melvin Leonard pays for hosting/domain.
+- **Hosting: GitHub Pages (planned)** — migrating from DreamHost. Email stays on DreamHost (~$24/yr). Domain owned by Melvin Leonard (free of charge to church).
 - Development is tracked in phases in `project.md` (Phase 0: Design → Phase 1: Foundation → Phase 2: Core Pages → Phase 3: Enhancements → Phase 4: Launch)
 
 ### Terry's Design Revisions (Mar 6, 2026)

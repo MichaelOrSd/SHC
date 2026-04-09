@@ -55,10 +55,12 @@ Rebuild and modernize the Sacred Heart Church website (nhshc.ca) for the parish 
 - Section order: Hero → Our Story → Cemetery → Board of Directors → Ways to Give → Newsletter → Footer
 
 ### Phase 1 - Foundation
-- [ ] Decide on tech stack for rebuild (static site generator, framework, or plain HTML)
-- [ ] Set up project structure and version control
-- [ ] Design system: colors, typography, spacing (based on approved mockup)
-- [ ] Responsive layout / mobile-first approach
+- [x] Decide on tech stack for rebuild — HTML/CSS/JS static site (Apr 9)
+- [x] Set up project structure and version control — Git repo initialized (Apr 9)
+- [x] Design system: colors, typography, spacing — based on Classic Heritage mockup (Apr 9)
+- [x] Responsive layout / mobile-first approach — implemented (Apr 9)
+- [x] Self-host fonts — WOFF2 files, no CDN dependencies (Apr 9)
+- [x] Favicon added from live site backup (Apr 9)
 
 ### Phase 2 - Core Pages
 - [ ] Home page with hero section
@@ -87,14 +89,14 @@ Rebuild and modernize the Sacred Heart Church website (nhshc.ca) for the parish 
 ## Your To-Do List
 
 ### Current (Apr 9, 2026)
-- [ ] **Awaiting e-transfer email confirmation** — northharbourshc@gmail.com (Mary Ann's doc) vs nhChurch@nhshc.ca. Follow-up sent to Terry Apr 9.
-- [ ] **Final cemetery copy needed** — currently placeholder text. Requested from Terry/Mary Ann.
-- [ ] **CanadaHelps profile confirmation** — verify it's searchable as "North Harbour Sacred Heart Church".
-- [ ] **High-res church photos** — still needed (1920px+ for hero). Requested again Apr 9.
-- [ ] **Logo decision pending** — Mary Ann sent options previously, Ida had a suggestion. Need a decision or agree on text placeholder for launch.
-- [ ] **Domain ownership** — need to clarify who owns nhshc.ca registration.
-- [ ] **Design sign-off still pending** — Terry and Mary Ann both reviewing. Mary Ann likes it ("great start").
-- [ ] **Follow-up email sent to Terry** — Apr 9 post-meeting. Action items documented.
+- [x] **E-transfer email confirmed: northharbourshc@gmail.com** — Terry confirmed Apr 9. nhChurch@nhshc.ca was set up by Bill Power.
+- [ ] **Cemetery copy** — Ida Linehan will write it. Terry to introduce Michael to Ida once site is viewable.
+- [x] **CanadaHelps confirmed active** — people have donated through it before.
+- [ ] **High-res church photos** — Terry working on it. Using existing 1024px photos for demo.
+- [ ] **Logo** — Terry sorting it out ("leave that with me").
+- [x] **Domain ownership confirmed: Melvin Leonard** — owns nhshc.ca, offers it free of charge.
+- [ ] **Design sign-off still pending** — Terry and Mary Ann both reviewing.
+- [ ] **Migration: GitHub Pages (site) + DreamHost (email only)** — reduces costs from ~$170/yr to ~$24/yr. Melvin downgrades to email-only hosting.
 
 ### Completed
 - [x] **Mary Ann Butt feedback received** — `Website Revision Suggestions.docx`. Updated copy, CanadaHelps confirmed, value boxes, logo needed.
@@ -115,7 +117,7 @@ Rebuild and modernize the Sacred Heart Church website (nhshc.ca) for the parish 
 
 ### Still To Do
 - [ ] Finalize design direction — formal sign-off from Terry and Mary Ann
-- [ ] Clarify: who owns the domain registration? (Terry? Melvin? Bill?)
+- [x] Domain ownership: Melvin Leonard — confirmed Apr 9
 - [ ] Get the 15-20 PDFs (governing docs, memberships, roles) — or a timeline for when they'll be ready
 - [ ] Start collecting remaining content — cemetery restoration story, final copy edits
 - [ ] Request photos from Terry/board if available
@@ -123,7 +125,7 @@ Rebuild and modernize the Sacred Heart Church website (nhshc.ca) for the parish 
 
 ### Ongoing / As Needed
 - [x] Back up current live site from DreamHost — saved to `backup/live-site/` on Mar 3
-- [ ] Set up Git repo for version control once build starts
+- [x] Set up Git repo for version control — initialized Apr 9
 - [ ] Draft a simple project agreement/scope doc for Terry
 - [ ] Store all credentials in a password manager (not just `.env`)
 
@@ -235,6 +237,11 @@ Rebuild and modernize the Sacred Heart Church website (nhshc.ca) for the parish 
 | Apr 9, 2026 | Epic/sprint plan created | 7 sprints, ~14 hrs, ~$777. See `docs/epic-site-launch.md` |
 | Apr 9, 2026 | E-transfer email discrepancy flagged | Mary Ann says northharbourshc@gmail.com, records say nhChurch@nhshc.ca — awaiting confirmation |
 | Apr 9, 2026 | DreamHost panel access received | Melvin Leonard granted access Apr 9 |
+| Apr 9, 2026 | E-transfer email confirmed | northharbourshc@gmail.com — Terry confirmed. nhChurch@nhshc.ca was Bill's setup |
+| Apr 9, 2026 | CanadaHelps confirmed active | People have donated through it before |
+| Apr 9, 2026 | Domain owned by Melvin Leonard | Offers it free of charge. Need Melvin to update DNS or transfer |
+| Apr 9, 2026 | Cemetery copy: Ida Linehan writing | Terry to intro Michael to Ida once site is viewable |
+| Apr 9, 2026 | Hosting migration: GitHub Pages + DreamHost email-only | Site on GitHub Pages (free), email stays on DreamHost (~$24/yr). Down from ~$170/yr |
 
 ---
 
