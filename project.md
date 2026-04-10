@@ -88,7 +88,11 @@ Rebuild and modernize the Sacred Heart Church website (nhshc.ca) for the parish 
 
 ## Your To-Do List
 
-### Current (Apr 9, 2026)
+### Current (Apr 10, 2026)
+- [ ] **Awaiting formal design sign-off** — Email sent to Terry + Mary Ann Apr 10 with screenshot attached. Waiting for reply before starting build phase.
+- [ ] **Supabase vs Kit decision** — Pivot proposed: move from Kit to Supabase from the start. Expected cost $4,385 vs $4,953 for Kit-then-Supabase. Not yet presented to Terry.
+
+### Previous (Apr 9, 2026)
 - [x] **E-transfer email confirmed: northharbourshc@gmail.com** — Terry confirmed Apr 9. nhChurch@nhshc.ca was set up by Bill Power.
 - [ ] **Cemetery copy** — Ida Linehan will write it. Terry to introduce Michael to Ida once site is viewable.
 - [x] **CanadaHelps confirmed active** — people have donated through it before.
@@ -236,6 +240,8 @@ Rebuild and modernize the Sacred Heart Church website (nhshc.ca) for the parish 
 | Apr 9, 2026 | Site draft built locally | `site/index.html` — all revisions applied, ready for review |
 | Apr 9, 2026 | Epic/sprint plan created | 7 sprints, ~14 hrs, ~$777. See `docs/epic-site-launch.md` |
 | Apr 9, 2026 | E-transfer email discrepancy flagged | Mary Ann says northharbourshc@gmail.com, records say nhChurch@nhshc.ca — awaiting confirmation |
+| Apr 10, 2026 | Design sign-off email sent | Email to Terry + Mary Ann with screenshot attached, awaiting reply |
+| Apr 10, 2026 | Supabase pivot under consideration | Cheaper in expected case ($4,385 vs $4,953) and avoids Kit→Supabase rework. Not yet presented to client |
 | Apr 9, 2026 | DreamHost panel access received | Melvin Leonard granted access Apr 9 |
 | Apr 9, 2026 | E-transfer email confirmed | northharbourshc@gmail.com — Terry confirmed. nhChurch@nhshc.ca was Bill's setup |
 | Apr 9, 2026 | CanadaHelps confirmed active | People have donated through it before |

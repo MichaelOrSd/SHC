@@ -2,6 +2,21 @@
 
 ---
 
+## April 10, 2026 — Design Sign-Off Email Sent
+
+- Emailed Terry Power (CC: Mary Ann Butt) requesting formal design sign-off
+- Attached a screenshot of the current draft
+- Waiting on their approval before starting the production build phase
+- Live preview is also available at https://michaelorsd.github.io/SHC/ (not mentioned in the email — focused on the screenshot only)
+
+### Pivot under consideration
+- Moving from Kit to Supabase from the start instead of Kit-now-Supabase-later
+- Rationale: church wants admin panel for content posting eventually (confirmed in Mar 3 notes). Kit branding on emails is a concern for business/professional context. Supabase-first avoids rework.
+- Expected cost: $4,385 (Supabase from start) vs $4,953 (Kit now, migrate later)
+- Not yet presented to Terry — will scope separately after design sign-off
+
+---
+
 ## April 9, 2026 — Meeting with Terry Power
 
 ### Pre-Meeting
