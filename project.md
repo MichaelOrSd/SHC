@@ -47,7 +47,7 @@ Rebuild and modernize the Sacred Heart Church website (nhshc.ca) for the parish 
   - [x] Mockup 2: "Warm Community" — welcoming, people-focused, cream/red
   - [x] Mockup 3: "Modern & Clean" — contemporary, bold typography, red accent
 - [x] Present mockups to Terry Power for feedback and selection (Mar 6)
-- [ ] Finalize design direction — Terry favours **Design 1 (Classic Heritage)** with the "Built by Hand, Bound by Heart" section from **Design 3**. Both sent to Terry for detailed review. Awaiting final sign-off.
+- [x] Finalize design direction — Terry approved Apr 16. Classic Heritage + "Built by Hand" from Modern & Clean. "Parish" → "Church" applied site-wide.
 
 **Design revisions from Terry (Mar 6):**
 - Change "Support Our Parish" → "Support Our Church"
@@ -90,11 +90,14 @@ Rebuild and modernize the Sacred Heart Church website (nhshc.ca) for the parish 
 
 ### Current (Apr 16, 2026)
 - [x] **Design sign-off received** — Terry approved Apr 16: "Please go ahead with the build."
-- [x] **Newsletter wording change applied** — "Parish Newsletter" → "Church Newsletter" per Terry. Parish is the broader entity that will ultimately be linked to.
-- [ ] **Sprint 4: Responsive/accessibility QA** — next up
-- [ ] **Sprint 5: Deploy to GitHub Pages**
+- [x] **Newsletter wording change applied** — "Parish Newsletter" → "Church Newsletter" per Terry. All remaining "Parish" labels updated to "Church" for consistency.
+- [x] **Sprint 4: Responsive/accessibility QA** — complete. HTML validates clean, placeholder links removed, og:image/og:url added, heading hierarchy fixed.
+- [x] **DreamHost access confirmed** — Melvin granted panel access. DNS management verified. Billing privileges not included (auto-renewal needs Melvin).
+- [x] **Preview site deployed** — https://michaelorsd.github.io/SHC/ — sent to Terry for review.
+- [ ] **Awaiting Terry's go-ahead to make site live** — reached out Apr 16. Once confirmed, Sprint 5 DNS cutover begins.
+- [ ] **Sprint 5: Deploy to GitHub Pages** — DNS cutover ready. Change DreamHost to DNS Only, add GitHub Pages A records + www CNAME. ~15 min once Terry confirms.
 - [ ] **Sprint 6: Handoff & maintenance docs**
-- [ ] **Supabase vs Kit decision** — Pivot proposed: move from Kit to Supabase from the start. Expected cost $4,385 vs $4,953 for Kit-then-Supabase. Not yet presented to Terry.
+- [x] **Supabase vs Kit decision** — Sticking with Kit. Supabase deferred to Phase 2. Migration is straightforward (CSV export from Kit, import to Supabase; preserve confirmation status to avoid re-consent).
 
 ### Previous (Apr 9, 2026)
 - [x] **E-transfer email confirmed: northharbourshc@gmail.com** — Terry confirmed Apr 9. nhChurch@nhshc.ca was set up by Bill Power.
@@ -103,7 +106,7 @@ Rebuild and modernize the Sacred Heart Church website (nhshc.ca) for the parish 
 - [ ] **High-res church photos** — Terry working on it. Using existing 1024px photos for demo.
 - [ ] **Logo** — Terry sorting it out ("leave that with me").
 - [x] **Domain ownership confirmed: Melvin Leonard** — owns nhshc.ca, offers it free of charge.
-- [ ] **Design sign-off still pending** — Terry and Mary Ann both reviewing.
+- [x] **Design sign-off received** — Terry approved Apr 16.
 - [ ] **Migration: GitHub Pages (site) + DreamHost (email only)** — reduces costs from ~$170/yr to ~$24/yr. Melvin downgrades to email-only hosting.
 
 ### Completed
@@ -124,7 +127,7 @@ Rebuild and modernize the Sacred Heart Church website (nhshc.ca) for the parish 
 - [x] **Site drafts shared with Mary Ann Butt** — sent for review.
 
 ### Still To Do
-- [ ] Finalize design direction — formal sign-off from Terry and Mary Ann
+- [x] Finalize design direction — Terry approved Apr 16
 - [x] Domain ownership: Melvin Leonard — confirmed Apr 9
 - [ ] Get the 15-20 PDFs (governing docs, memberships, roles) — or a timeline for when they'll be ready
 - [ ] Start collecting remaining content — cemetery restoration story, final copy edits
@@ -254,6 +257,11 @@ Rebuild and modernize the Sacred Heart Church website (nhshc.ca) for the parish 
 | Apr 9, 2026 | Hosting migration: GitHub Pages + DreamHost email-only | Site on GitHub Pages (free), email stays on DreamHost (~$24/yr). Down from ~$170/yr |
 | Apr 16, 2026 | **Design sign-off received from Terry** | "Please go ahead with the build." Build phase unblocked |
 | Apr 16, 2026 | Newsletter wording: "Church Newsletter" not "Parish" | Per Terry: Parish is the broader entity that will ultimately be linked to. Church-scoped language belongs on this site |
+| Apr 16, 2026 | All "Parish" labels updated to "Church" site-wide | Hero subtitle, board section, footer, meta descriptions — consistent with Terry's principle |
+| Apr 16, 2026 | Sprint 4 QA complete | HTML validates clean, placeholder links removed, og tags added, accessibility fixes applied |
+| Apr 16, 2026 | DreamHost panel access confirmed | Melvin granted access. DNS management works. Billing privileges not included (auto-renewal needs Melvin) |
+| Apr 16, 2026 | Supabase deferred to Phase 2 | Sticking with Kit for launch. CSV migration to Supabase later is straightforward |
+| Apr 16, 2026 | Preview site sent to Terry | https://michaelorsd.github.io/SHC/ — awaiting go-ahead to make live |
 
 ---
 

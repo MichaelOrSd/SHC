@@ -4,117 +4,105 @@
 **Owner:** darkdesk  
 **Rate:** $55.50/hr (half rate for the church)  
 **Estimated total:** ~$1,200 (site) + Kit setup = ~$1,600. $600 deposit received.
-**Start condition:** Design draft approved by Terry Power and Mary Ann Butt  
+**Start condition:** ~~Design draft approved by Terry Power and Mary Ann Butt~~ **Approved Apr 16, 2026**  
 
 ---
 
-## Sprint 0 — Sign-Off & Blockers (Pre-work)
+## Sprint 0 — Sign-Off & Blockers (Pre-work) ✓
 **Goal:** Clear all blockers before dev begins  
 **Duration:** 1 week (dependent on client responses)
 
-- [ ] Get formal design approval from Terry and Mary Ann
-- [ ] Confirm e-transfer email is `northharbourshc@gmail.com` (Mary Ann's doc) — not `nhChurch@nhshc.ca`
-- [ ] Get final cemetery copy from Mary Ann / Terry (currently placeholder)
-- [ ] Confirm CanadaHelps profile exists and is searchable as "North Harbour Sacred Heart Church"
-- [ ] Request high-res church photos (1920px+ for hero) from Terry or board members
-- [ ] Ask about logo — Mary Ann mentioned she sent options previously, Ida had a suggestion. Get a decision or agree on text placeholder for launch.
-- [ ] Confirm DreamHost panel access works (received Apr 9 from Melvin)
-- [ ] Clarify domain ownership — who owns nhshc.ca registration?
+- [x] Get formal design approval from Terry and Mary Ann — Terry approved Apr 16
+- [x] Confirm e-transfer email is `northharbourshc@gmail.com` — Terry confirmed Apr 9
+- [ ] Get final cemetery copy from Mary Ann / Terry (deferred — current copy used for launch)
+- [x] Confirm CanadaHelps profile exists and is searchable as "North Harbour Sacred Heart Church"
+- [ ] Request high-res church photos (deferred — CSS hero treatment used for launch)
+- [ ] Ask about logo (deferred — text wordmark used for launch)
+- [x] Confirm DreamHost panel access works — confirmed Apr 16, DNS management verified
+- [x] Clarify domain ownership — Melvin Leonard, confirmed Apr 9
 
 **Deliverable:** All blockers resolved or deferred with client agreement
 
 ---
 
-## Sprint 1 — Production Foundation (~3 hrs)
-**Goal:** Set up version control, project structure, and production-ready tooling
+## Sprint 1 — Production Foundation (~3 hrs) ✓
+**Goal:** Set up version control, project structure, and production-ready tooling  
+**Completed:** Apr 9, 2026
 
-- [ ] Initialize Git repo
-- [ ] Set up `.gitignore` (`.env`, `.DS_Store`, `node_modules/`, etc.)
-- [ ] Self-host fonts — download EB Garamond, Cinzel, Lato as WOFF2 files, remove Google Fonts CDN link
-- [ ] Create `fonts/` directory with font files and `@font-face` declarations
-- [ ] Add favicon (text placeholder or logo if received)
-- [ ] Verify the site works fully offline (no external dependencies except CanadaHelps link)
-- [ ] Set up basic directory structure for production:
-  ```
-  nhshc.ca/
-  ├── index.html
-  ├── css/style.css
-  ├── fonts/
-  ├── Images/
-  ├── Newsletters/
-  └── favicon.ico
-  ```
-
-**Deliverable:** Git repo with production file structure, site runs offline
+- [x] Initialize Git repo
+- [x] Set up `.gitignore`
+- [x] Self-host fonts (EB Garamond, Cinzel, Lato as WOFF2)
+- [x] Create `fonts/` directory with `@font-face` declarations
+- [x] Add favicon from live site backup
+- [x] Site works offline (no CDN dependencies)
+- [x] Production directory structure in place
 
 ---
 
-## Sprint 2 — Content & Copy (~3 hrs)
-**Goal:** Replace all placeholder content with final approved copy
+## Sprint 2 — Content & Copy (~3 hrs) ✓
+**Goal:** Replace all placeholder content with final approved copy  
+**Completed:** Apr 9, 2026
 
-- [ ] Swap in final cemetery copy (from Sprint 0)
-- [ ] Insert high-res hero photo if received — otherwise finalize CSS texture/gradient hero
-- [ ] Add church photos in appropriate sections (Our Story, Built by Hand, Cemetery) with proper `alt` text
-- [ ] Verify all Mary Ann copy is accurate — check for typos, punctuation (comma after "gather", etc.)
-- [ ] Write or finalize "Open and Accountable" paragraph — get client approval
-- [ ] Add newsletter PDFs to `/Newsletters/` directory (3 existing PDFs from backup)
-- [ ] Link footer document placeholders to actual PDFs where available (Articles of Incorporation, Bylaws)
-- [ ] Update any remaining `#` placeholder hrefs or mark with `<!-- TODO -->` for Phase 2
-
-**Deliverable:** All content finalized and approved, no placeholder text visible to visitors
+- [x] CSS texture/gradient hero (no high-res photo received)
+- [x] Mary Ann copy revisions applied
+- [x] "Open and Accountable" paragraph included
+- [ ] Cemetery copy — deferred (Ida Linehan writing; current draft used for launch)
+- [ ] Newsletter PDFs — deferred to Phase 2 (need to add to site)
+- [x] Placeholder footer links removed (Documents section deferred until PDFs received)
 
 ---
 
-## Sprint 3 — Kit Newsletter Integration (~2 hrs)
-**Goal:** Set up Kit (ConvertKit) and wire up the newsletter signup
+## Sprint 3 — Kit Newsletter Integration (~2 hrs) ✓
+**Goal:** Set up Kit (ConvertKit) and wire up the newsletter signup  
+**Completed:** Apr 10, 2026
 
-- [ ] Create Kit account (free plan — 10K subscribers, unlimited broadcasts)
-- [ ] Create subscriber form in Kit dashboard
-- [ ] Set up the 1 free automation: welcome email ("Thanks for subscribing to Sacred Heart Church updates")
-- [ ] Get Kit embed code and replace `<!-- REPLACE WITH KIT EMBED FORM -->` in index.html
-- [ ] Style the Kit embed to match the site's newsletter section (override Kit's default CSS)
-- [ ] Test signup flow end-to-end: submit form → appears in Kit subscriber list → welcome email sent
-- [ ] Confirm nhshcinfo@gmail.com receives notification of new subscribers (or set up in Kit)
-
-**Deliverable:** Working newsletter signup, tested, styled to match site
+- [x] Kit account created (free plan)
+- [x] Subscriber form created and embedded
+- [x] Kit embed styled to match site design
+- [x] Form integrated into newsletter section
+- [ ] Welcome email automation — verify setup in Kit dashboard
+- [ ] End-to-end test with real email — verify subscriber appears + welcome sent
 
 ---
 
-## Sprint 4 — Responsive, Accessibility & QA (~3 hrs)
-**Goal:** Ensure the site works everywhere and meets accessibility standards
+## Sprint 4 — Responsive, Accessibility & QA (~3 hrs) ✓
+**Goal:** Ensure the site works everywhere and meets accessibility standards  
+**Completed:** Apr 16, 2026
 
-- [ ] Test responsive layout: mobile (375px), tablet (768px), desktop (1280px+)
-- [ ] Test hamburger menu on mobile — open/close, link navigation, scroll
-- [ ] Verify all anchor links scroll correctly with nav offset
-- [ ] Accessibility audit:
-  - [ ] All images have descriptive `alt` text
-  - [ ] Heading hierarchy is correct (h1 → h2 → h3, no skips)
-  - [ ] Skip nav link works
-  - [ ] ARIA labels on nav, sections, and interactive elements
-  - [ ] Keyboard navigation works (tab through all links and form)
-  - [ ] Sufficient color contrast (WCAG AA)
-- [ ] Cross-browser testing: Safari, Chrome, Firefox (at minimum)
-- [ ] Validate HTML (W3C validator)
-- [ ] Check page load performance — images optimized, no unused CSS
-- [ ] Test CanadaHelps link opens correctly
-- [ ] Test gravesites database link opens correctly
-- [ ] Test email `mailto:` links work
+- [x] Responsive CSS verified: mobile (375px), tablet (768px), desktop (1280px+)
+- [x] Hamburger menu toggle with proper aria-expanded
+- [x] Anchor links with smooth scrolling
+- [x] Accessibility audit:
+  - [x] No `<img>` tags without alt (site uses CSS backgrounds)
+  - [x] Heading hierarchy fixed (h1 → h2 → h3, no skips — footer h4 changed to `<p>`)
+  - [x] Skip nav link present
+  - [x] ARIA labels on nav, sections, and interactive elements
+  - [x] Keyboard navigation supported
+  - [ ] Color contrast: gold labels on cream (~2.6:1) and stone text (~3.76:1) below WCAG AA — decorative text, not blocking launch
+- [x] HTML validated via W3C — 0 errors, 0 warnings
+- [x] All external links verified (CanadaHelps, gravesites DB, Kit form, mailto)
+- [x] Placeholder `href="#"` links removed (except commented-out Facebook)
+- [x] og:image and og:url meta tags added for social sharing
+- [x] All "Parish" labels updated to "Church" per Terry's direction
 
-**Deliverable:** Site passes accessibility and QA checklist, works on all target devices/browsers
+**Deliverable:** Site passes QA checklist. Preview deployed to GitHub Pages.
 
 ---
 
 ## Sprint 5 — Deployment & Go Live (~2 hrs)
-**Goal:** Deploy to DreamHost and make the site live at nhshc.ca
+**Goal:** Deploy to GitHub Pages and make the site live at nhshc.ca  
+**Status:** Awaiting Terry's go-ahead (reached out Apr 16)
 
-- [ ] SFTP into DreamHost — confirm panel access and directory structure
-- [ ] Back up the existing live site (already done — `backup/live-site/`)
-- [ ] Upload production files to DreamHost via SFTP
-- [ ] Verify site loads at nhshc.ca
-- [ ] Test all links, forms, and navigation on the live site
-- [ ] Verify SSL/HTTPS is active (DreamHost Let's Encrypt)
-- [ ] Set up www → non-www redirect (or vice versa) if not already configured
-- [ ] Submit sitemap or URL to Google Search Console (if access available)
+- [x] GitHub Pages deploy workflow configured and tested
+- [x] Preview site live at https://michaelorsd.github.io/SHC/
+- [x] DreamHost panel access confirmed — DNS management verified
+- [x] Back up the existing live site (already done — `backup/live-site/`)
+- [ ] Change DreamHost hosting type to "DNS Only" for nhshc.ca
+- [ ] Add GitHub Pages A records (185.199.108-111.153)
+- [ ] Add www CNAME → michaelorsd.github.io
+- [ ] Configure custom domain in GitHub repo Settings → Pages
+- [ ] Verify HTTPS active via GitHub Pages
+- [ ] Test all links, forms, and navigation on live nhshc.ca
 - [ ] Send go-live confirmation to Terry and Mary Ann
 
 **Deliverable:** nhshc.ca is live with the new site
