@@ -3,7 +3,7 @@
 **Goal:** Take the approved design draft to a live, production-ready website at nhshc.ca  
 **Owner:** darkdesk  
 **Rate:** $55.50/hr (half rate for the church)  
-**Estimated total:** ~$1,200 (site) + Kit setup = ~$1,600  
+**Estimated total:** ~$1,200 (site) + Kit setup = ~$1,600. $600 deposit received.
 **Start condition:** Design draft approved by Terry Power and Mary Ann Butt  
 
 ---
@@ -28,13 +28,13 @@
 ## Sprint 1 — Production Foundation (~3 hrs)
 **Goal:** Set up version control, project structure, and production-ready tooling
 
-- [x] Initialize Git repo
-- [x] Set up `.gitignore` (`.env`, `.DS_Store`, DreamHost server files, etc.)
-- [x] Self-host fonts — downloaded EB Garamond, Cinzel, Lato as WOFF2 files, removed Google Fonts CDN link
-- [x] Create `fonts/` directory with font files and `@font-face` declarations
-- [x] Add favicon (copied from current live site backup)
-- [x] Verify the site works fully offline (no external dependencies except outbound links)
-- [x] Set up basic directory structure for production:
+- [ ] Initialize Git repo
+- [ ] Set up `.gitignore` (`.env`, `.DS_Store`, `node_modules/`, etc.)
+- [ ] Self-host fonts — download EB Garamond, Cinzel, Lato as WOFF2 files, remove Google Fonts CDN link
+- [ ] Create `fonts/` directory with font files and `@font-face` declarations
+- [ ] Add favicon (text placeholder or logo if received)
+- [ ] Verify the site works fully offline (no external dependencies except CanadaHelps link)
+- [ ] Set up basic directory structure for production:
   ```
   nhshc.ca/
   ├── index.html
@@ -105,22 +105,19 @@
 ---
 
 ## Sprint 5 — Deployment & Go Live (~2 hrs)
-**Goal:** Deploy to GitHub Pages, update DNS, make site live at nhshc.ca
+**Goal:** Deploy to DreamHost and make the site live at nhshc.ca
 
-- [ ] Create GitHub repo (public) and push code
-- [ ] Enable GitHub Pages (serve from `main` branch, `/site` folder or GitHub Actions)
-- [ ] Verify site loads at GitHub Pages URL (staging)
-- [ ] Confirm DreamHost panel access can manage DNS
-- [ ] Update A/CNAME records on DreamHost to point nhshc.ca to GitHub Pages — leave MX records untouched (email stays on DreamHost)
-- [ ] Add CNAME file in repo with `nhshc.ca`
-- [ ] Wait for DNS propagation, verify nhshc.ca loads from GitHub Pages
-- [ ] Verify HTTPS works (GitHub Pages auto-provisions SSL)
-- [ ] Verify email still works on DreamHost (MX unchanged)
-- [ ] Coordinate with Melvin to downgrade DreamHost to email-only hosting (~$24/yr)
+- [ ] SFTP into DreamHost — confirm panel access and directory structure
+- [ ] Back up the existing live site (already done — `backup/live-site/`)
+- [ ] Upload production files to DreamHost via SFTP
+- [ ] Verify site loads at nhshc.ca
+- [ ] Test all links, forms, and navigation on the live site
+- [ ] Verify SSL/HTTPS is active (DreamHost Let's Encrypt)
+- [ ] Set up www → non-www redirect (or vice versa) if not already configured
 - [ ] Submit sitemap or URL to Google Search Console (if access available)
 - [ ] Send go-live confirmation to Terry and Mary Ann
 
-**Deliverable:** nhshc.ca is live on GitHub Pages, email unchanged on DreamHost
+**Deliverable:** nhshc.ca is live with the new site
 
 ---
 

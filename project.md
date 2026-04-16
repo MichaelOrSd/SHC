@@ -88,8 +88,12 @@ Rebuild and modernize the Sacred Heart Church website (nhshc.ca) for the parish 
 
 ## Your To-Do List
 
-### Current (Apr 10, 2026)
-- [ ] **Awaiting formal design sign-off** — Email sent to Terry + Mary Ann Apr 10 with screenshot attached. Waiting for reply before starting build phase.
+### Current (Apr 16, 2026)
+- [x] **Design sign-off received** — Terry approved Apr 16: "Please go ahead with the build."
+- [x] **Newsletter wording change applied** — "Parish Newsletter" → "Church Newsletter" per Terry. Parish is the broader entity that will ultimately be linked to.
+- [ ] **Sprint 4: Responsive/accessibility QA** — next up
+- [ ] **Sprint 5: Deploy to GitHub Pages**
+- [ ] **Sprint 6: Handoff & maintenance docs**
 - [ ] **Supabase vs Kit decision** — Pivot proposed: move from Kit to Supabase from the start. Expected cost $4,385 vs $4,953 for Kit-then-Supabase. Not yet presented to Terry.
 
 ### Previous (Apr 9, 2026)
@@ -248,6 +252,8 @@ Rebuild and modernize the Sacred Heart Church website (nhshc.ca) for the parish 
 | Apr 9, 2026 | Domain owned by Melvin Leonard | Offers it free of charge. Need Melvin to update DNS or transfer |
 | Apr 9, 2026 | Cemetery copy: Ida Linehan writing | Terry to intro Michael to Ida once site is viewable |
 | Apr 9, 2026 | Hosting migration: GitHub Pages + DreamHost email-only | Site on GitHub Pages (free), email stays on DreamHost (~$24/yr). Down from ~$170/yr |
+| Apr 16, 2026 | **Design sign-off received from Terry** | "Please go ahead with the build." Build phase unblocked |
+| Apr 16, 2026 | Newsletter wording: "Church Newsletter" not "Parish" | Per Terry: Parish is the broader entity that will ultimately be linked to. Church-scoped language belongs on this site |
 
 ---
 
