@@ -856,7 +856,8 @@ footer {
   margin-bottom: 1.2rem;
 }
 
-.footer-contact a {
+.footer-contact a,
+.footer-contact span {
   color: rgba(250,246,238,0.55);
   text-decoration: none;
   font-size: 0.85rem;
@@ -866,7 +867,8 @@ footer {
 }
 .footer-contact a:hover { color: var(--gold-light); }
 
-.footer-col h4 {
+.footer-col h4,
+.footer-col-title {
   font-family: 'Cinzel', serif;
   font-size: 0.75rem;
   font-weight: 600;
