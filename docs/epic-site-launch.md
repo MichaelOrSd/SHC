@@ -89,9 +89,24 @@
 
 ---
 
+## Sprint 4b — Pre-Launch Content Revisions (~2 hrs)
+**Goal:** Apply Terry's Apr 17 feedback before going live  
+**Status:** Awaiting revised copy from Terry + collaborators  
+**Target:** Complete before May 2026 launch
+
+- [ ] **Cemetery section rewrite** — current copy inaccurately describes fixing tombstones/gravesites. Terry clarified they won't do that — certain restoration work requires 3 other people's collaboration. Awaiting revised wording from Terry.
+- [ ] **Our Story section revision** — less about the history of the project, more about the group/team. Awaiting specific direction from Terry.
+- [ ] **Re-add footer Documents section** — publicly available charity documents: Articles of Incorporation, Bylaws, meeting minutes, etc. Link to PDFs as they become available.
+- [ ] **Add "under construction" disclaimer** — visible banner or note stating this is the first iteration of the site and not all documents are available yet.
+
+**Deliverable:** All content revisions applied, site ready for May launch
+
+---
+
 ## Sprint 5 — Deployment & Go Live (~2 hrs)
 **Goal:** Deploy to GitHub Pages and make the site live at nhshc.ca  
-**Status:** Awaiting Terry's go-ahead (reached out Apr 16)
+**Target:** May 2026  
+**Blocked by:** Sprint 4b content revisions
 
 - [x] GitHub Pages deploy workflow configured and tested
 - [x] Preview site live at https://michaelorsd.github.io/SHC/
@@ -148,10 +163,18 @@ Items deferred from this launch, to be scoped and quoted separately:
 | Sprint 0 — Sign-Off & Blockers | 0 (client time) | $0 |
 | Sprint 1 — Production Foundation | ~3 hrs | $166.50 |
 | Sprint 2 — Content & Copy | ~3 hrs | $166.50 |
-| Sprint 3 — Kit Newsletter | ~2 hrs | $111.00 |
+| Sprint 3 — Kit Newsletter | included | $0 |
 | Sprint 4 — QA & Accessibility | ~3 hrs | $166.50 |
+| Sprint 4b — Content Revisions | ~2 hrs | $111.00 |
 | Sprint 5 — Deployment | ~2 hrs | $111.00 |
 | Sprint 6 — Handoff | ~1 hr | $55.50 |
 | **Total** | **~14 hrs** | **~$777** |
 
-*Under the original $1,200 estimate. Kit is free (no Supabase backend needed). Remaining budget gives buffer for revision rounds or scope additions.*
+### Payment Status
+| Payment | Amount | Date |
+|---------|--------|------|
+| Deposit | $600 | Apr 2026 |
+| Second payment | $600 | Apr 17, 2026 |
+| **Total paid** | **$1,200** | **Paid in full** |
+
+*Kit newsletter is free (no Supabase backend needed). Newsletter cost removed from scope. $1,200 covers the full current build. Remaining budget buffer (~$423) covers revision rounds and scope additions.*

@@ -88,20 +88,23 @@ Rebuild and modernize the Sacred Heart Church website (nhshc.ca) for the parish 
 
 ## Your To-Do List
 
-### Current (Apr 16, 2026)
+### Current (Apr 17, 2026)
 - [x] **Design sign-off received** — Terry approved Apr 16: "Please go ahead with the build."
-- [x] **Newsletter wording change applied** — "Parish Newsletter" → "Church Newsletter" per Terry. All remaining "Parish" labels updated to "Church" for consistency.
-- [x] **Sprint 4: Responsive/accessibility QA** — complete. HTML validates clean, placeholder links removed, og:image/og:url added, heading hierarchy fixed.
-- [x] **DreamHost access confirmed** — Melvin granted panel access. DNS management verified. Billing privileges not included (auto-renewal needs Melvin).
-- [x] **Preview site deployed** — https://michaelorsd.github.io/SHC/ — sent to Terry for review.
-- [ ] **Awaiting Terry's go-ahead to make site live** — reached out Apr 16. Once confirmed, Sprint 5 DNS cutover begins.
-- [ ] **Sprint 5: Deploy to GitHub Pages** — DNS cutover ready. Change DreamHost to DNS Only, add GitHub Pages A records + www CNAME. ~15 min once Terry confirms.
+- [x] **Newsletter wording change applied** — All "Parish" labels updated to "Church" site-wide.
+- [x] **Sprint 4: Responsive/accessibility QA** — complete.
+- [x] **DreamHost access confirmed** — DNS management verified. Billing privileges not included (auto-renewal needs Melvin).
+- [x] **Preview site deployed** — https://michaelorsd.github.io/SHC/
+- [x] **Supabase vs Kit decision** — Sticking with Kit. Supabase deferred to Phase 2.
+- [ ] **Cemetery section rewrite** — awaiting feedback from Terry + collaborators. Current wording re: fixing tombstones/gravesites is inaccurate — certain work requires 3 other people's involvement. Do NOT go live until revised copy received.
+- [ ] **Our Story section revision** — Terry wants less history of the project, more about the group/team. Awaiting specific direction.
+- [ ] **Footer documents section** — re-add Documents section for publicly available charity docs (Articles of Incorporation, Bylaws, meeting minutes, etc.). Launch with "under construction" disclaimer.
+- [ ] **"Under construction" disclaimer** — Terry wants the site to launch in May with a note that this is the first iteration and not all documents are available yet.
+- [ ] **Sprint 5: Deploy to GitHub Pages** — target: May 2026. DNS cutover ready. Blocked on cemetery rewrite + Our Story revision.
 - [ ] **Sprint 6: Handoff & maintenance docs**
-- [x] **Supabase vs Kit decision** — Sticking with Kit. Supabase deferred to Phase 2. Migration is straightforward (CSV export from Kit, import to Supabase; preserve confirmation status to avoid re-consent).
 
 ### Previous (Apr 9, 2026)
 - [x] **E-transfer email confirmed: northharbourshc@gmail.com** — Terry confirmed Apr 9. nhChurch@nhshc.ca was set up by Bill Power.
-- [ ] **Cemetery copy** — Ida Linehan will write it. Terry to introduce Michael to Ida once site is viewable.
+- [ ] **Cemetery copy rewrite** — current wording is inaccurate (they won't fix tombstones/gravesites — certain work needs 3 other people). Awaiting revised copy from Terry + collaborators.
 - [x] **CanadaHelps confirmed active** — people have donated through it before.
 - [ ] **High-res church photos** — Terry working on it. Using existing 1024px photos for demo.
 - [ ] **Logo** — Terry sorting it out ("leave that with me").
@@ -208,6 +211,14 @@ Rebuild and modernize the Sacred Heart Church website (nhshc.ca) for the parish 
 - Budget set at ~$800-1200 for Phase 1 basic site
 - Scheduled Mar 8 meeting at 1:00 PM with Terry
 
+### Apr 17, 2026 - Meeting with Terry Power (Pre-Launch Review)
+- Cemetery section needs rewrite — they won't be fixing tombstones or gravesites. Certain restoration work requires collaboration with 3 other people. Waiting for revised wording from Terry + collaborators.
+- Our Story section: Terry wants less about the history of the project, more about the group/team.
+- Footer: re-add a Documents section for publicly available charity documents (Articles of Incorporation, Bylaws, meeting minutes, etc.)
+- Launch target: May 2026 with a disclaimer that the site is under construction / first iteration — not all documents available yet.
+- Terry paid additional $600 — total paid $1,200, paid in full for current scope.
+- Newsletter cost removed from scope (Kit is free, no Supabase backend needed).
+
 ### Feb 27, 2026 - Project Kickoff
 - Reviewed current site at nhshc.ca
 - Identified broken placeholder links and missing content
@@ -262,6 +273,8 @@ Rebuild and modernize the Sacred Heart Church website (nhshc.ca) for the parish 
 | Apr 16, 2026 | DreamHost panel access confirmed | Melvin granted access. DNS management works. Billing privileges not included (auto-renewal needs Melvin) |
 | Apr 16, 2026 | Supabase deferred to Phase 2 | Sticking with Kit for launch. CSV migration to Supabase later is straightforward |
 | Apr 16, 2026 | Preview site sent to Terry | https://michaelorsd.github.io/SHC/ — awaiting go-ahead to make live |
+| Apr 17, 2026 | Meeting with Terry — pre-launch revisions | Cemetery section needs rewrite (won't fix tombstones — needs 3 collaborators). Our Story: less project history, more about the group/team. Add footer Documents section for public charity docs. Launch target: May 2026 with "under construction" disclaimer |
+| Apr 17, 2026 | Terry paid additional $600 | Total paid: $1,200 ($600 deposit + $600). Paid in full for current scope. Newsletter cost removed (Kit is free) |
 
 ---
 
@@ -274,40 +287,19 @@ Rate: $111/hr — working at half rate ($55.50/hr) for the church.
 | Item | Hours | Cost |
 |------|-------|------|
 | Frontend build (static site) | ~22 hrs | $1,200 |
-| ~~Newsletter backend (Supabase)~~ | ~~8 hrs~~ | ~~$444~~ |
-| Newsletter: Kit (free plan) | ~2 hrs | $111 |
-| **Revised Total** | **~24 hrs** | **~$1,311** |
-| **Sprint estimate (see epic)** | **~14 hrs** | **~$777** |
+| Newsletter: Kit (free plan) | included | $0 |
+| **Total** | **~22 hrs** | **~$1,200** |
 
-### Newsletter Backend Strategy
+### Payment Status
 
-**Recommendation: Set up Supabase now** (not Mailchimp or a simple serverless function)
+| Payment | Amount | Date |
+|---------|--------|------|
+| Deposit | $600 | Apr 2026 |
+| Second payment | $600 | Apr 17, 2026 |
+| **Total paid** | **$1,200** | **Paid in full for current scope** |
 
-Why build for expansion now:
-- Church wants user login and content posting down the road (confirmed)
-- Supabase gives us: real Postgres database, REST API, and built-in auth — all free tier
-- Newsletter signup → store emails in a `subscribers` table
-- When Phase 2 comes, add `users` and `posts` tables to something that already exists
-- Avoids rework: going Mailchimp now means migrating data, rebuilding the signup flow, and re-confirming subscribers later (4–6 hrs of wasted rework)
-
-**Supabase newsletter backend (2–4 hrs):**
-- Supabase project setup + schema (1–2 hrs)
-- Newsletter signup form → DB integration (1–2 hrs)
-- nhshcinfo@gmail.com gets notified on each new subscriber
-
-### How to Pitch to Terry
-
-Frame it as: *"We can do this the cheap way now and pay more later, or spend a little more now and never have to redo it."*
-
-Present as two line items:
-1. **Site build: $1,200** — full landing page with all sections, responsive, polished
-2. **Newsletter backend (add-on): $444** — Supabase setup, sets the foundation for newsletter signups now and user accounts + content posting later
-
-Total ~$1,650 — at a discounted rate for the church. The backend add-on is the smart investment because they're already thinking long-term.
-
-### Future Phases (not in this quote)
-- User login + authentication (Supabase auth already in place)
-- Content posting / blog / updates (admin panel, posts table)
+### Future Phases (not in this quote — to be scoped separately)
+- Supabase migration (newsletter backend + user login + content posting)
 - Events calendar
 - Online payments (Stripe / Canada Helps integration)
 - Social media integration
