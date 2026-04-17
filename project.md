@@ -99,6 +99,7 @@ Rebuild and modernize the Sacred Heart Church website (nhshc.ca) for the parish 
 - [ ] **Our Story section revision** — Terry wants less history of the project, more about the group/team. Awaiting specific direction.
 - [ ] **Footer documents section** — re-add Documents section for publicly available charity docs (Articles of Incorporation, Bylaws, meeting minutes, etc.). Launch with "under construction" disclaimer.
 - [ ] **"Under construction" disclaimer** — Terry wants the site to launch in May with a note that this is the first iteration and not all documents are available yet.
+- [ ] **CanadaHelps direct link** — current link goes to canadahelps.org homepage. Email sent to Mary Ann Apr 17 requesting direct donation page URL or CRA charity registration number (BN). Will update once received.
 - [ ] **Sprint 5: Deploy to GitHub Pages** — target: May 2026. DNS cutover ready. Blocked on cemetery rewrite + Our Story revision.
 - [ ] **Sprint 6: Handoff & maintenance docs**
 
@@ -275,6 +276,7 @@ Rebuild and modernize the Sacred Heart Church website (nhshc.ca) for the parish 
 | Apr 16, 2026 | Preview site sent to Terry | https://michaelorsd.github.io/SHC/ — awaiting go-ahead to make live |
 | Apr 17, 2026 | Meeting with Terry — pre-launch revisions | Cemetery section needs rewrite (won't fix tombstones — needs 3 collaborators). Our Story: less project history, more about the group/team. Add footer Documents section for public charity docs. Launch target: May 2026 with "under construction" disclaimer |
 | Apr 17, 2026 | Terry paid additional $600 | Total paid: $1,200 ($600 deposit + $600). Paid in full for current scope. Newsletter cost removed (Kit is free) |
+| Apr 17, 2026 | CanadaHelps direct link requested | Email sent to Mary Ann for direct donation page URL or CRA BN. Current link goes to homepage — poor UX |
 
 ---
 
