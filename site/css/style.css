@@ -418,6 +418,15 @@ section {
   line-height: 1.6;
 }
 
+.story-pull-credit {
+  font-family: 'EB Garamond', serif;
+  font-size: 0.95rem;
+  font-style: italic;
+  color: var(--stone);
+  text-align: center;
+  margin-top: 0.3rem;
+}
+
 .story-columns {
   display: grid;
   grid-template-columns: 1fr 1fr;
