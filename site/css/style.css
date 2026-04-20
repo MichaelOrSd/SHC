@@ -876,6 +876,14 @@ footer {
 }
 .footer-contact a:hover { color: var(--gold-light); }
 
+.footer-docs-note {
+  font-size: 0.72rem;
+  font-style: italic;
+  color: rgba(250,246,238,0.35);
+  margin-top: 0.8rem;
+  line-height: 1.5;
+}
+
 .footer-col h4,
 .footer-col-title {
   font-family: 'Cinzel', serif;
