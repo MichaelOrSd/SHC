@@ -92,14 +92,16 @@ Rebuild and modernize the Sacred Heart Church website (nhshc.ca) for the parish 
 - [x] **Mona accepted single-page approach (May 14)** — after Michael's explainer email walking her through the scrolling single-page format, Mona replied: "It's all as clear as mud :-). Thank you for explaining it to me. I hadn't worked on a scrolling website format in the past." Multi-page restructure proposal effectively withdrawn.
 - [x] **Mona's draft content arrived (May 19)** — "About Us" copy + updated Board list received over the long weekend. Archived to `docs/about-us-mona-pearce.md`. Open flags: founding year "2004(?)" unconfirmed; new Mount Cashel/Archdiocese narrative needs tone+accuracy review (tension with Terry's "less project history" steer); board names changed (maiden names + corrected surnames — Ida Linehan→**Ida (Linehan) Young**, **Mona (Bonia) Pearce**). Mona also asks if Michael has her Christmas-drafted Support Us / Contact Us / Newsletter content + Newsletter PDFs — **reply needed**.
 - [ ] **Ida to do final stylistic edit of the site** — Mona's suggestion (May 14): once content is in, Ida polishes for voice/symmetry across all sections. Confirms Mona's earlier instinct that Ida should drive the writing voice. **Loop Ida in once content is loaded.**
-- [ ] **Pre-launch chat with Terry — next week (week of May 18)** — Terry has asked to meet after Mona's content arrives, to walk through any remaining gaps before launch. Need to prep:
-  - Refresher on email-capture / newsletter campaign solution (see "Newsletter refresher" note below — Terry explicitly asked for this in advance)
-  - Status of cemetery copy (still outstanding)
-  - Status of high-res photos (still outstanding)
-  - Status of CanadaHelps direct link / CRA number (Mary Ann)
-  - Status of governance documents for footer Documents section
-- [ ] **Splash page name** — still open question: keep "Sacred Heart Church" as primary headline with legal corp name as subtitle, vs. legal corp name as the headline. Raised in May 11 explainer; no board pushback yet. **Bring up with Terry in next week's chat.**
+- [x] **Pre-launch chat with Terry — done May 21** (with Ida + Mary Ann). Decisions logged in the dated entry below. Mona out (last-minute floor-work scheduling). Group call to be rescheduled with Mona included.
+- [ ] **Splash page name** — keep "Sacred Heart Church" as primary headline; Terry to confirm whether the legal corp name appears as a subtitle and in what form (**Articles say "Corporation," Terry has been using "Inc."** — needs reconciliation). Naming consistency rule locked: whatever form is chosen is used everywhere on the site.
 - [ ] **Charitable status + tax-deductible language on Support Us** — must state we are a registered charitable organization and donations are tax deductible (Mona, Apr 25). Blocked on CRA registration number from Mary Ann.
+- [x] **Site contact info refresh (May 21)** — public email switched to `northharbourshc@gmail.com` in footer; mailing address updated to "Box 23, Site 5, North Harbour, St. Mary's Bay, NL A0B 2V0" in footer + Support Us "By Mail" card. "Contact Us" label added above the footer email block (gold Cinzel, matches Church/Documents column titles).
+- [ ] **Outstanding from team (post-May 21 call)** — fresh recap email to be sent by Michael:
+  - Terry: confirm legal name form (Corporation vs Inc.); confirm `northharbourshc@gmail.com` is also the donations-of-record address; deliver updated About Us copy (Terry took ownership; placement = above Board).
+  - Ida: cemetery narrative copy (paragraphs above the gravesites database link).
+  - Mary Ann: CRA charity registration # (BN); Annual Financial Statements PDF; direct CanadaHelps donation URL.
+  - Mona: resend revised About Us copy (May 20 attachment didn't come through). Newsletter PDFs she forwarded are duplicates — close out.
+  - Board: high-res church photos for hero.
 
 ### Newsletter / email-capture solution (refresher for Terry, May 14)
 Terry asked for a refresher on the email capture + campaign solution before next week's chat. Current setup:
@@ -125,15 +127,15 @@ A custom-branded HTML email template for Kit, matching the Classic Heritage site
 | **Total** | | **~9 hrs** |
 
 **Cost at church rate ($55.50/hr): ~$500.** Not included in the original $1,200 scope — this would be a separate small engagement, billed only if/when the church wants the custom template built. Plain Kit template is fully functional at launch; custom styling is a quality-of-life upgrade.
-- [ ] **Confirm legal corporation name** — likely "Sacred Heart Roman Catholic Church" per by-laws (`docs/2022 11 22 Sacred Heart RCC By-Law 1 rfp.docx`); need exact name from Articles of Incorporation for splash page.
+- [x] **Confirmed legal corporation name from Articles of Incorporation (May 21)** — **"North Harbour Sacred Heart Church Corporation"** (`docs/2023 01 19 Inc. Articles.pdf`, filed Jan 19, 2023). Terry has been using "Inc." which contradicts the Articles. Terry to choose which form to publish on the splash; whichever it is, used consistently everywhere.
 - [ ] **Add charitable status messaging to Support Us** — must state we are a registered charitable organization and donations are tax deductible (Mona, Apr 25).
 - [x] **History piece received from Ida (Apr 29)** — Anne Marie Dalton's "Recollections and Records – Establishing the History of North Harbour Church" forwarded by Ida. Saved to `docs/history-anne-marie-dalton.md` (PDF original also available from Ida if needed).
 - [x] **History integration (May 19)** — Ida's call: full piece on its own page (`site/history.html`), surfaced via an understated "More history →" link in Our Story (no excerpt taking word space on the homepage). Built and live in the working site. Open: replace placeholder permission line if Anne Marie wants different wording; optional — swap the standalone page for a downloadable PDF if the board prefers a true file download (easy change).
-- [ ] **Mona's prior content suggestions** — Mona to dig out and resend prior content/suggestions she sent Terry. Watch inbox.
-- [ ] **Cemetery section rewrite** — awaiting feedback from Terry + collaborators. Current wording re: fixing tombstones/gravesites is inaccurate — certain work requires 3 other people's involvement. Do NOT go live until revised copy received.
-- [ ] **Our Story section revision** — Terry wants less history of the project, more about the group/team. Awaiting specific direction.
-- [ ] **Footer documents section** — re-add Documents section for publicly available charity docs (Articles of Incorporation, Bylaws, meeting minutes, etc.). Launch with "under construction" disclaimer.
-- [ ] **"Under construction" disclaimer** — Terry wants the site to launch in May with a note that this is the first iteration and not all documents are available yet.
+- [x] **Mona's prior content suggestions — received** — About Us draft (May 19, `docs/about-us-mona-pearce.md`) + Contact Us draft (May 21, `docs/contact-us-mona-pearce.md`). About Us being rewritten by Terry per May 21 call; Contact Us absorbed into footer (no dedicated section).
+- [ ] **Cemetery section rewrite** — owed by **Ida Linehan** (per Terry's Apr 9 commit; reconfirmed May 21). Current wording about tombstones/gravesites is inaccurate. External gravesites database link already in place. Do NOT launch until Ida's narrative paragraphs arrive.
+- [x] **Our Story section direction settled (May 21)** — Our Story stays poetic (Ida's voice already on page). Project-history narrative split into its own **About Us** section above Board of Directors (copy owed by Terry). Mount Cashel material dropped per Ida's May 19 vote.
+- [x] **Footer Documents section — built** (Sprint 4). Currently includes Articles of Incorporation, Bylaws, Meeting Minutes, Financial Statements links — launches with "under construction" disclaimer until PDFs are uploaded.
+- [x] **"Under construction" disclaimer — in place** in the footer Documents column.
 - [ ] **CanadaHelps direct link** — current link goes to canadahelps.org homepage. Email sent to Mary Ann Apr 17 requesting direct donation page URL or CRA charity registration number (BN). Will update once received.
 - [ ] **Sprint 5: Deploy to GitHub Pages** — target: May 2026. DNS cutover ready. Blocked on cemetery rewrite + Our Story revision + nav-structure consensus.
 - [ ] **Sprint 6: Handoff & maintenance docs**
