@@ -1,0 +1,180 @@
+# Recollections and Records – Establishing the History of North Harbour Church
+
+**By: Anne Marie Dalton**
+**Received from Ida Linehan Young, Apr 29, 2026** (also available as PDF; original file from Ida)
+
+---
+
+Sacred Heart Church, North Harbour, the current building, was built in 1954. However, the Encyclopedia of Newfoundland and Labrador indicates there was a church in North Harbour by 1884. This accounts for the community memory that the building of 1954 was a renovation.
+
+Research on the cemetery by Shawn Power found that the first person buried in the present cemetery was Maria Josephine Walsh in 1884. Geraldine (Dalton) Kielley recalls participating in a choir at the church in the 1940s. Children from both sides of the harbour were trained for a joint choir most likely by two Delorey sisters from St. Mary's, who taught in North Harbour at the time.
+
+Indications are that there may have been a church/chapel even earlier than 1884. There was also a building used as both church and school in John's Pond by 1891. What follows is an effort to 'read between the lines' of the little information that survives and is accessible about church life in North Harbour.
+
+## Building the 1954 Church
+
+As far as we can tell from memories of those old enough to recall something about the construction of the church in 1954, and as was the case in most rural communities, Sacred Heart Church was built by many hands. Men (maybe some women too) gave volunteer labour. The then parish priest, Reverend Albert P. Slattery would certainly have solicited a few to oversee the project. This would include ensuring materials were available as needed, plans were followed, and generally that everything went according to the overall plan.
+
+There are strong memories in a few families of who these foremen may have been—the memories of extra-ordinary visits from Father Slattery and conversations in the household. It is likely that James (Jim) Dalton, Michael (Mike) Tremblett, and Thomas Dalton oversaw the construction of the building. Politically this also makes sense as it represents the three communities served by the church at that time. Edward Linehan told stories of worrying about finding unmarked graves while digging the foundation or extending it. There is a memory and frequently related story of Jim Dalton engraving the initials of those who worked on the church behind the altar. We will have to wait until they become accessible to see what he wrote. There was also the story, related by Thomas Dalton, of Father Slattery pressuring Jim to climb on to the church's steep roof and install the steeple. Having finally conceded and succeeded, Jim was awarded fifty cents by the Rev. Father! As a photo of the church from 1956 shows, this event may have occurred somewhat later as there is no steeple in that photo. It is also possible the film was not developed immediately after the photo was taken.
+
+Then of course there was the log cutting and lumber sawing which made up the bulk of the project. Undoubtedly the logs were donated and the subsequent lumber required was cut at the local mills at the owners' expense.
+
+In 1959, the following licensed sawmill owners were listed for North Harbour and John's Pond: Jeremiah Bonia, David Dalton, Thomas Linehan, Paul Power, Michael Tremblett, Patrick Walsh. Most if not all of these mills were active in 1954 as found at the following link: publications.gc.ca/collections/collection_2017/statcan/cs35-501-1961-eng.pdf. Kenneth Power also owned a mill at this time. There were likely to be others. Sawmills had been family affairs for quite a while by then and may not all have been registered. We can only conclude that any man who was available showed up when he could to work on Sacred Heart Church in some capacity. Not many would have escaped the solicitation and tenacity of Father Slattery!
+
+There is no record of the source of the interior furnishings such as the high altar, altar rail and pews of the church. It is likely that some were hand made, but it is possible that such items were manufactured in St. John's. By the late nineteenth century, St. John's had many prosperous factories for which wood was a readily available resource.
+
+## Architecture and Theological Meaning
+
+With few exceptions, trained architects were not involved in the construction of rural churches in Newfoundland. The high peaked roof, steeple, and large arched windows of Sacred Heart Church came from the memories of our European ancestors and the talented hands of the workmen. Each of these elements have a history and theological meaning. Churches were built on high ground to be visible to the community. Steeples with a cross on top have been part of Christian churches since the conversion of Constantine in the fourth century. They were an adaptation of earlier Roman structures. Rectangular and arched windows were elements of the more decorative Gothic style, following also on the availability and increased use of glass and of the addition of heating to church buildings. The location together with the high-pitched roof and steeple require the congregation to gaze upward, consistent with belief in a transcendent God. The older high altar of the original church also carried this function and symbolism. It allowed for the celebrant to be more visible to the congregation, but it also required the upward gaze and reflected the hierarchical structure of the Catholic Church. An altar rail separated the most sacred part of the church from the congregation.
+
+When Catholic theology, beginning with Vatican Council II, took a different focus in the twentieth century, the architecture of churches followed suit. Moving the altar closer to floor level, changing its orientation to face the congregation and removing the altar rail symbolized the immanence of God and the role of the laity as co-celebrants in the Eucharist. Newer churches were also built and located to reflect this change; high-rise secular buildings overpowered the sky lines. In this regard, Sacred Heart Church, like other small rural churches, holds the memory of a different time and meaning as well as incorporating elements of the new.
+
+Following on Vatican Council II, Sacred Heart Church was significantly renovated and enlarged to its present size in the 1970s. A new altar facing the congregation was installed, the communion rail and confessional were removed. The church was enlarged to allow for aisles on the sides of the pews, and electric heaters were installed. Later a room used for wakes was added.
+
+## Consecration, Naming, and Sacred Objects
+
+There is no available record of the consecration and naming of North Harbour church. The consecration of a church is the duty of a Bishop and involves blessing and anointing with oil of various parts of the structure, placing of relics in the main altar, the dedication and church naming all according to a canonical rite. Often, however, a simpler version is carried out by a priest, usually the priest serving that church and delegated by his bishop. This is most likely the case for Sacred Heart Church in 1954/5. While the new building would be blessed, the name may have been assigned to the earlier building.
+
+Statues and other sacred objects of the church were donated by local people over the years. The statue of Saint Rose, fairly rare in Catholic churches, was donated by Mr. John (Jack) Power in memory of his wife, Rose. The Blessed Sacrament altar was donated from money raised by the students of Mount Carmel school in memory of Jacqueline Dalton. An electric organ was donated by Mrs. Annie Dalton. Jerry Burton donated a portrait of Jesus in remembrance of his godson, Barry Linehan. These are only a few of the numerous donations made to honour the memory of loved ones.
+
+Devotion to the Sacred Heart of Jesus is a relatively new one in relation to most other Catholic devotions. While it originated in France following the mystical visions (1673-5) of Sister Margaret Mary Alacoque, the devotion promoted by her visions was not officially recognized by the Catholic Church until 1856. Margaret Mary had been proclaimed a saint in 1920. The Sacred Heart symbolizes the love of God associated with the gift of Christ's presence in the Eucharist. The feast day of the Sacred Heart was added to the church calendar in 1856 to be celebrated nineteen days after the feast of Pentecost.
+
+## Parish Life Before North Harbour Had Its Own Resident Priest
+
+As one of several outlying churches in a parish, Sacred Heart Church did not provide for all the religious needs of the community. Until there was a passable road and a bridge linking the two sides of the harbour, parish priests (mission priests on occasion) made sporadic visits. Children were confirmed and couples married in the lead church of the parish. Geraldine Kielley recalls her confirmation, circa 1945. Children of confirmation age from both sides of the harbour were taken "around the point" in a motorboat operated by Paul Power to Mount Carmel to be confirmed. The children were supervised by Marie Bonia. This would not have been the only time that children were taken "around the point" for religious and educational reasons. School children regularly attended the annual Procession of the Blessed Sacrament to celebrate the feast of Corpus Christi in Mount Carmel from at least 1940s until the early 1960s. High school students went to Mount Carmel to write public exams during those years as well.
+
+Church records show that marriages were performed in St. Mary's and St. Joseph's prior to 1927 and in Mount Carmel up until the 1960s when it became more convenient for priests to come to North Harbour. By then there was a road and bridge to the north side. There were also younger priests, Rev. Albert Whelan, an assistant, and Rev. Edmund Purcell, who became parish priest upon Fr. Slattery's retirement.
+
+## Parish History
+
+North Harbour, John's Pond, and Cape Dog were part of St. Mary's (Assumption) Parish from 1834 to 1872, indicating that there were settlers in those communities by 1834. This parish originally included all settlements from Trepassey to the Cape Shore until 1845 when a parish was created to include Trepassey and environs. In 1872, Assumption Parish was further divided to create St. Joseph (Good Shepherd) Parish, which included, among others, North Harbour and John's Pond. In 1927, the communities of Mount Carmel, Colinet, Harricott, The Tickles, North Harbour, John's Pond, Mitchell's Brook and St. Catherine's were moved from St. Joseph's parish to form Mount Carmel (Our Lady of Mount Carmel) Parish. St. Catherine's was moved back and forth between St. Joseph's and Mount Carmel at least once.
+
+### Priests Serving the Parishes That Included North Harbour
+
+**Assumption Parish, St. Mary's:**
+- Rev. J. Duffy 1834–1844
+- Rev. K. Walsh 1845–1860
+- Rev. J. Ryan 1860–
+
+**Holy Shepherd Parish, St. Joseph's:**
+- Rev. J. St. John 1874–1896
+- Rev. J. O'Reilly 1899–1919
+- Rev. M. Enright 1919–1966
+
+**Our Lady of Mount Carmel Parish:**
+- Rev. J. Connors 1927–1935
+- Rev. A. P. Slattery 1935–1962
+- Rev. E. Purcell 1962–1971
+- Rev. J. Barbour 1971–1974
+- Rev. V. Power 1988–1993
+
+### Bishops of Vicariate of Newfoundland and St. John's Diocese
+
+- Rt. Rev. J. L. O'Donel 1784–1796
+- Rt. Rev. P. Lambert 1807–1816
+- Rt. Rev. T. Scallan 1816–1830
+- Rt. Rev. M. A. Fleming 1830–1850
+- *St. John's became diocese for all of Newfoundland, 1847*
+- Rt. Rev. J. T. Mullock 1850–1869
+- *Harbour Grace diocese formed, 1856*
+- Rt. Rev. T. J. Power 1870–1893
+- *West Coast Diocese formed, 1870*
+- Rt. Rev. M. F. Howley 1895–1914
+- Rt. Rev. E. P. Roche 1915–1950
+- Rt. Rev. P. J. Skinner 1951–1979
+- Rt. Rev. A. L. Penney 1979–1991
+- Rt. Rev. J. H. MacDonald 1991–2000
+- Rt. Rev. B. M. O'Brien 2000–2007
+- Rt. Rev. M. W. Currie 2007–2018
+- Rt. Rev. P. J. Hundt 2018–
+
+## Bishops Visiting North Harbour
+
+We have no way of knowing how many of these priests and bishops visited North Harbour, but there were some including Bishops Fleming and Mullock. Early priests and bishops in Newfoundland, travelled extensively by both boat and on foot. For example, in 1825, Rev. Timothy Power travelled from Renews to St. Mary's and performed 13 marriages. No doubt there were also baptisms. At that time the "Lord of the Harbour", a merchant or fishing captain, would officiate at marriages and mid-wives would baptize conditionally. These marriages were later witnessed by a priest, and baptisms performed. Father Duffy of St. Mary's many trips overland to St. John's are also documented.
+
+The existence of "Chapel Hill" on the north side of North Harbour is assuredly proof of the existence of a chapel there. It is probable that this chapel was built sometime in the 1840s. Important ecclesial events leading up to and during that time would indicate this probability, as well as a growing, although still small, population of settlers in the harbour in the early 1800s. The Census of 1836 indicates five families, twenty-two people in North Harbour and Cape Dog. In 1845 there were 33 people in North Harbour, 19 at Patrick's Point, 17 at Cape Dog and 28 in John's Pond according to the Encyclopedia of Newfoundland and Labrador.
+
+Personal ancestry searches suggest the family names Power and Bonia may have been the first settlers, followed closely by Tremblett, Walsh, King, Ryan. Linehan was the dominant family name in John's Pond and Ryan in Cape Dog.
+
+Given North Harbour's location as the most inland harbour in the bay and on a well-used route between St. John's and Placentia, indications are that those settlers in North Harbour were preceded by short term stays, shelter for fishing boats during storms, and hideouts from the oppression of colonial rule, threatened deportation, French and English skirmishes, inter-Irish squabbles and the like. There would also be makeshift wharves and other paraphernalia that made the harsh conditions of a fisherman's life more bearable. Before 1713, when the French were defeated and the British took control of Newfoundland, the French had a prosperous fishing station in Colinet. There they brought their catches from the various harbours in St. Mary's Bay. Placentia was a thriving capital with a Church served by several clergy. There is evidence of four other French churches in the Placentia area dating from the 1600s, as well as evidence of a Portuguese chapel dating back to 1662.
+
+An interesting occurrence in 1782 featured North Harbour and attests to the fact that boat owners were known to be present there or at the very least they sheltered there. The boats were apparently worth capturing! An American privateer, Captain Hugh Elmes, his crew of twenty-four men and a heavily armed ship, The Hazard, raided the area. He captured and plundered a ship on route from St. Mary's to Trepassey off Cape English. He then proceeded to North Harbour and took three more boats. The Hazard itself was eventually captured by the citizens of St. Mary's.
+
+While most travel between places was by boat and for the purpose of fishing, we know from both community memory and written evidence that there were overland paths joining North Harbour to both the Cape Shore and Placentia, John's Pond to Colinet and on to St. John's, and Cape Dog to North Harbour. The early settlers, both French and then mostly Irish, would have explored those more inland routes as well as use them in procuring logs and firewood, as well as for berry picking and hunting.
+
+Irish immigration to Newfoundland peaked in 1815. Most settled in St. John's, but many in the outports along what is now the Irish Loop and in Conception Bay. With this increase in the Irish Catholic population there was increasing pressure to grant religious rights to Catholics. Bishop Fleming was a fiery, politically involved leader of his people and fought valiantly for their rights. While Newfoundland Catholics would continue to fight sporadically for a place in public life and for religious rights until well after freedom for religion was proclaimed in 1829, they could now build places of worship and bury their dead in their own cemeteries. Until 1811, the law required that Roman Catholics and Methodists bury their dead in Church of England cemeteries, use the Church of England rite of burial and pay a fee for the service. That leads to imagining that many could not afford the fee. Furthermore, they resisted such a rule resulting in many unmarked graves.
+
+We also have records of three visits by bishops to North Harbour in the 1800s. Bishop Fleming in 1836, and Bishop Mullock circa 1850 and 1869/70 (dates vary in sources). Bishop Fleming accompanied by Maurice Boland of Placentia and "a Micmac" made a trip from St. John's to the Cape Shore and Placentia as documented by Rt. Rev. Monsignor Flynn in *Newfoundland Quarterly*, XXXVI, No. 2. He is reported as having "left North Harbour" to walk to Placentia (SE). Msgr. Flynn focusses in this article on the seemingly unusual event that Bishop Fleming had to sleep outdoors in a "tilt" as he arrived near Placentia at night fall. The obvious implication is that the former night he had refuge with a family in North Harbour. He would have celebrated mass, maybe also performed confirmations before continuing his journey.
+
+Priests and bishops were required to offer mass daily and trips were arranged to enable such. In more detailed accounts of other travels in Newfoundland, the bishop enumerates the number of confirmations he performed. The trail Bishop Fleming took in 1836 is described in reverse as leading directly from Southeast Placentia to North Harbour and "thence to Colinet along the shore." The presence of the Mi'kmaq guide is also worth noting. Could this trail have been used by the native peoples before Europeans arrived?
+
+Bishop Fleming was also a tireless advocate for the institutionalization of Catholicism and the expansion of the Catholic Church in Newfoundland. He promoted the building of chapels/churches, increased the number of priests recruited from Ireland, created new parishes and increased educational opportunities, especially in the Catholic faith. During his term as bishop, the number of priests in Newfoundland increased from five to about fifty. There is record of a chapel in St. Joseph's by 1840 and one in Placentia just earlier. Given the bishop's desire for the building of chapels, his visit to North Harbour and its strategic location, it is conceivable that the North Harbour chapel was built around this time though unlikely that it would have been regularly served by a priest. It would have been a place of refuge and prayer especially in times of severe need and tragedy. As Irish Catholics had done in the "old country" during such times, meeting for the Rosary was probably the most frequent use of the chapel and early church. The practice of praying the Rosary at wakes, for example, has survived to the present day.
+
+There are two recorded visits by Bishop Mullock to North Harbour. "History Notes" in *The Monitor* (1938-04-22) recalls that on August 31, 1850, Bishop Mullock accompanied by Rev. William Forristall, then pastor at Placentia, left St. John's on a visitation to Placentia District; the route went overland and included North Harbour. Another source (*Newfoundland Quarterly*, 1950) has this date as 1848. In any case, his visit would be either just before or just after Bishop Mullock became bishop of the diocese of Newfoundland, upon the retirement of Bishop Fleming. This visit is probably the source of the names Mullockville and Forristall assigned to the two sides of the harbour though Father Forristall was never attached to the parishes that included North Harbour.
+
+In 1860, Father J. Ryan became parish priest in St. Mary's. We know he had at least one important contact in North Harbour. Mr. Philip Duggan owned a farm on the south side. In Mr. Duggan's will, probate year 1861, he left to "Rev. Father Ryan and his said successors as such Parish Priest in St. Mary's my farmland and premises at North Harbour – at the head of St. Mary's Bay, and which farm formerly belonged to Mr. Isaac King." (File 300.1.16.1, Jan. 23, 1861, Archdiocesan Archives).
+
+The second visit by Bishop Mullock was in 1869/1870 according to the October 1936 edition of the *Newfoundland Quarterly*. This visit was also recalled by Rev. J. O'Reilly writing for the *Quarterly* in 1901. He based his account on notes made by Bishop Mullock or his companions about his "episcopal" tour which included among other places, "Mullockville and Forristal, in North Harbour." Bishop Mullock was accompanied by Father Ryan, parish priest in St. Mary's who now owned the Duggan farm in North Harbour, and the recently ordained Fr. Verreker. The party was "rowed from settlement to settlement." The Bishop was impressed that "[I]n every settlement from St. Joseph's to Mosquito, and from Carmelton (Mount Carmel) to Mullockville, the continual 'sound of the hammer' could be heard building and repairing fishing boats and homes." This indicated the growing prosperity of the area. This visit by Bishop Mullock is recalled as an "episcopal visit," which usually means the required visit of a bishop to the churches in his diocese once every five years, according to Canon Law. This is loosely interpreted in large or difficult-to-navigate dioceses, but it is significant that North Harbour is included in this visit and likely indicates the presence of a place of worship predating the 1954 structure.
+
+While there is no record of a visit to North Harbour by Bishop Power, there is record of two land grants in North Harbour to him by the Crown in 1887, one on each side of the harbour. On the south side, the land is described as lying between the lands owned by Michael Ryan and Isaac King; on the north side, the land abuts that of David Tremblett (sp. Tremlet), crown land being the other border. Obviously, Bishop Power had an interest in some building there, the schools perhaps.
+
+## Community Life
+
+An interesting note entitled "A Pretty Wedding in Mullockville" in the *Evening Telegram* (1904-02-02) is a tiny window into the social life of the small settlement in the early twentieth century. Captain Patrick Power of Mullockville and Miss Maggie Walsh of Forristal were married at St. Joseph's by Rev. O'Reilly. The "wedding supper" for the "highly esteemed" couple was held in the groom's parent's home in Mullockville (North Harbour, north side). This is the same Captain Power who owned a lobster canning factory in Mullockville.
+
+Then there are also recollections of tragedies. One such is the list of the deaths from diphtheria of seven children of the Ryan family in North Harbour between December 12 and December 29, 1912. Another is the death of five Linehan children in 1980 in a house fire. These stand out because of the unimaginable loss of so many children at once. There are many others like the three Power brothers who were drowned in 1899. These tragic events are especially poignant when reflecting on the "life" of a church. For many of our ancestors, the church was the place of last resort. There they sought meaning, were comforted by their faith and their community, and entrusted the memory of their loved ones.
+
+The 1921 Census reports 153 persons in 25 Households in North Harbour, 65 of those were adults of whom 30 were born in other places including John's Pond, Cape Dog, Salmonier, Oderin, Admiral's Beach, Mother Ixx, Conche, St. Mary's, Branch and Toad's Cove. Census taken in other communities show North Harbour as the birthplace of adults there as well. In and out migration at the time was normal for all the settlements around St. Mary's Bay and is witness to the constant movement of residents to fish, find supplies, attend social events, seek medical care, get confirmed, get married, be nearer to roads, and sometimes to find easily available plots of land. It is not conceivable that this many Irish Catholic folks did not have a common place of worship in their community.
+
+The first parish priest in Mount Carmel Parish, Father Connors, visited North Harbour in 1927. This was the year the parish was founded, so probably his first visit. He baptized two newborns (surnames Meaney and Tremblett). Undoubtedly, there was also the celebration of Mass and hearing of confessions.
+
+## Twentieth Century to Present
+
+Activity in Sacred Heart Church increased considerably for a few decades in the 1960s. By the 1950s the road on the South side was completed and a bridge to the North side in the early 1960s. Diocesan records show visiting priests on the Crusade of Charity in 1954 and 1956, and Masses celebrated monthly. In the 1970s Masses were scheduled weekly. By this time, the fishing industry, which had been sporadic in St Mary's Bay since the mid-1800s, had greatly declined and so did the population.
+
+Many men had to leave the community for work. They worked at the American bases in Newfoundland, on fishing boats in other places, and whatever jobs they could find in St. John's, Churchill Falls, and other locations. Children had to leave first for secondary school in the mid 1960s. Beginning in 1970, all school children were bused to Mount Carmel.
+
+North Harbour residents remained active in serving on the parish council and the altar society. They also participated in renewal programs, one held in North Harbour in 1979. After closing of Sacred Heart church in 2022, wakes and funerals were held there as well as an annual cemetery Mass, and occasional Masses when a priest was available.
+
+The great churches of Europe have often been referred to as "Faith in Stone." North Harbour church does not carry the weight and endurability of stone; it is more fittingly "faith in wood." It bears the lightness and fragility of its past and the lives of those who built and cared for it. Sacred Heart Church was purchased by the community to be kept as a spiritual centre for the community in 2023.
+
+---
+
+## Acknowledgments
+
+Thank you to the following individuals who added comments or confirmed research involved in this account or whose research was used in this account:
+
+- Geraldine (Dalton) Kielley
+- Olive Power
+- Shawn Power
+- Kevin Walsh
+- Ida (Linehan) Young
+
+## Parting Words
+
+Around the time that the present Sacred Heart Church was built or extensively renovated, the American poet, e. e. cummings, penned the following lines as "Prayer for a Church."
+
+> i am a little church (no great cathedral)
+> far from the splendor and squalor of hurrying cities
+> i do not worry if briefer days grow briefest,
+> i am not sorry when sun and rain make april
+>
+> my life is the life of the reaper and the sower;
+> my prayers are prayers of earth's own clumsily striving
+> (finding and losing and laughing and crying) children
+> whose any sadness or joy is my grief or my gladness
+>
+> around me surges a miracle of unceasing
+> birth and glory and death and resurrection:
+> over my sleeping self, float flaming symbols
+> of hope, and i wake to a perfect patience of hills
+>
+> i am a little church (far from the frantic
+> world with its rapture and anguish) at peace with nature
+> i do not worry if longer nights grow longest;
+> i am not sorry when silence becomes singing
+>
+> winter by spring, i lift my diminutive spire to
+> merciful Him Whose only now is forever:
+> standing erect in the deathless truth of His presence
+> (welcoming humbly His light and proudly His darkness)

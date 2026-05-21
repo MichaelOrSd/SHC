@@ -51,18 +51,21 @@ SHC/
 - Section order: Hero → Our Story → Cemetery → Board of Directors → Ways to Give → Newsletter → Footer
 - Board of Directors moved below Cemetery section
 
-## Church Leadership (Board of Directors) — Updated Mar 3, 2026
+## Church Leadership (Board of Directors) — Updated May 19, 2026
+Names per Mona's May 19 list (maiden names in parentheses for female members, so readers connect them to North Harbour; members may opt out via Michael). Corrected surnames vs. prior list: Ida (Linehan) **Young**; Mona (Bonia) Pearce.
 - **President:** Terry Power
-- **Vice President & Treasurer:** Mary Ann Butt
-- **Director:** Mona Pearce
-- **Director:** Ida Linehan
-- **Director:** Ann Power
+- **Vice President & Treasurer:** Mary Ann (Walsh) Butt
+- **Director:** Mona (Bonia) Pearce
+- **Director:** Ida (Linehan) Young
+- **Director:** Ann (Philpott) Power
 - **Director:** Ken Walsh
 
-## Key Contacts & Accounts
-- General email: nhshcinfo@gmail.com
-- E-Transfer: nhChurch@nhshc.ca
-- Mailing address: North Harbour, NL A0B 2V0
+## Corporation & Contacts (confirmed May 21, 2026 meeting + Articles of Incorporation)
+- **Legal corporation name:** North Harbour Sacred Heart Church **Corporation** (per Articles of Incorporation filed Jan 19, 2023 — `docs/2023 01 19 Inc. Articles.pdf`). Terry believed "Inc." — the Articles use "Corporation" throughout. **Pending Terry's confirmation** as to which form the board wants to publish; Articles are authoritative.
+- **Founding year:** 2023 (incorporation filed Jan 19, 2023).
+- **Primary email:** northharbourshc@gmail.com (confirmed Apr 9 by Terry as the donations Gmail he monitors; reaffirmed May 21). Supersedes prior `nhshcinfo@gmail.com` and `nhChurch@nhshc.ca` for public-facing use.
+- **E-Transfer mailbox:** nhChurch@nhshc.ca (Bill Power set this up; Terry to confirm whether this or the Gmail is the donations-of-record address).
+- **Mailing address:** Box 23, Site 5, North Harbour, St. Mary's Bay, NL A0B 2V0.
 - Cemetery database: https://shawnpowerancestry.com/gravesites/
 - Credentials are in `.env` (never read or commit this file)
 
