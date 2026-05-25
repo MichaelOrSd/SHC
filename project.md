@@ -98,7 +98,7 @@ Rebuild and modernize the Sacred Heart Church website (nhshc.ca) for the parish 
 - [x] **Site contact info refresh (May 21)** — public email switched to `northharbourshc@gmail.com` in footer; mailing address updated to "Box 23, Site 5, North Harbour, St. Mary's Bay, NL A0B 2V0" in footer + Support Us "By Mail" card. "Contact Us" label added above the footer email block (gold Cinzel, matches Church/Documents column titles).
 - [ ] **Outstanding from team (post-May 21 call)** — fresh recap email to be sent by Michael:
   - Terry: confirm legal name form (Corporation vs Inc.); confirm `northharbourshc@gmail.com` is also the donations-of-record address; deliver updated About Us copy (Terry took ownership; placement = above Board).
-  - Ida: cemetery narrative copy (paragraphs above the gravesites database link).
+  - ~~Ida: cemetery narrative copy~~ — **delivered May 21, applied May 25.** Now needs Terry to confirm the year (2024) + entity name in Ida's draft.
   - Mary Ann: CRA charity registration # (BN); Annual Financial Statements PDF; direct CanadaHelps donation URL.
   - Mona: resend revised About Us copy (May 20 attachment didn't come through). Newsletter PDFs she forwarded are duplicates — close out.
   - Board: high-res church photos for hero.
@@ -132,7 +132,9 @@ A custom-branded HTML email template for Kit, matching the Classic Heritage site
 - [x] **History piece received from Ida (Apr 29)** — Anne Marie Dalton's "Recollections and Records – Establishing the History of North Harbour Church" forwarded by Ida. Saved to `docs/history-anne-marie-dalton.md` (PDF original also available from Ida if needed).
 - [x] **History integration (May 19)** — Ida's call: full piece on its own page (`site/history.html`), surfaced via an understated "More history →" link in Our Story (no excerpt taking word space on the homepage). Built and live in the working site. Open: replace placeholder permission line if Anne Marie wants different wording; optional — swap the standalone page for a downloadable PDF if the board prefers a true file download (easy change).
 - [x] **Mona's prior content suggestions — received** — About Us draft (May 19, `docs/about-us-mona-pearce.md`) + Contact Us draft (May 21, `docs/contact-us-mona-pearce.md`). About Us being rewritten by Terry per May 21 call; Contact Us absorbed into footer (no dedicated section).
-- [ ] **Cemetery section rewrite** — owed by **Ida Linehan** (per Terry's Apr 9 commit; reconfirmed May 21). Current wording about tombstones/gravesites is inaccurate. External gravesites database link already in place. Do NOT launch until Ida's narrative paragraphs arrive.
+- [x] **Cemetery section rewrite — Ida's copy received May 21, applied May 25.** Replaces the inaccurate "restoring every headstone" placeholder with Ida's narrative: 2024 ownership transfer from the St. John's Episcopal Corporation, beautification (trees/brush, parking lot, grounds), and the partnership with Shawn Power (gravesites/photos link integrated inline; the standalone CTA card was dropped per Ida's flow). Section title also changed: "Cemetery Restoration" → "Our Cemetery". **Open for Terry:** confirm the year ("2024") and the exact entity name (Ida wrote "St. John's Episcopal Corporation"; Mona's About Us draft had "Roman Catholic Episcopal Corporation of St. John's" — reconcile).
+- [ ] **Support Us copy — incoming from Mona** (May 21 email: "I still need to find my suggestions for the [Support Us] tab, but will send it along in the next day or so. Ida can edit!"). Watch inbox.
+- [ ] **Response-time commitment on site — PARKED, do not add.** Ida proposed a stated turnaround for emails/mail; Mona pushed back (volunteer board, can't commit timelines, recent bereavements in mind). Mona's view stronger and last in thread. No timeline language on the site for now; leave footer Contact Us as-is. Revisit only if the board agrees a soft expectation.
 - [x] **Our Story section direction settled (May 21)** — Our Story stays poetic (Ida's voice already on page). Project-history narrative split into its own **About Us** section above Board of Directors (copy owed by Terry). Mount Cashel material dropped per Ida's May 19 vote.
 - [x] **Footer Documents section — built** (Sprint 4). Currently includes Articles of Incorporation, Bylaws, Meeting Minutes, Financial Statements links — launches with "under construction" disclaimer until PDFs are uploaded.
 - [x] **"Under construction" disclaimer — in place** in the footer Documents column.
@@ -256,6 +258,16 @@ A custom-branded HTML email template for Kit, matching the Classic Heritage site
 - Created 3 design prompts in `docs/design-prompts.md` for mockup generation
 - Budget set at ~$800-1200 for Phase 1 basic site
 - Scheduled Mar 8 meeting at 1:00 PM with Terry
+
+### May 25, 2026 — Ida's Cemetery Copy + Mona/Ida Response-Time Debate
+
+**Cemetery copy delivered by Ida (May 21 email, applied May 25):**
+Three paragraphs replacing the prior placeholder. Frames the 2024 transfer from the St. John's Episcopal Corporation, beautification work (trees/brush clearance, parking lot, grounds), the corporation's ongoing role in fundraising-driven improvements to both building and graveyard, and the partnership with Shawn Power (link to his site embedded inline, with a redirect-notice sentence per Ida's draft). Section title updated from "Cemetery Restoration" to "Our Cemetery" — fits the broader framing.
+- **For Terry to confirm:** the year (Ida wrote "2024" but flagged uncertainty); the exact entity name (Ida: "St. John's Episcopal Corporation"; Mona's About Us draft: "Roman Catholic Episcopal Corporation of St. John's"). These are factual edits Michael can make after Terry replies — no site rebuild required.
+
+**Mona owes Support Us suggestions** — promised "in the next day or so" (May 21); Ida invited to edit when it lands.
+
+**Response-time debate (Ida vs. Mona) — PARKED.** Ida proposed adding a stated response timeline ("a week, or two weeks") to set expectations for people who write in. Mona pushed back twice: (1) she doesn't have access to the email account and doesn't want it; (2) board consultation needed for some questions; (3) recent bereavements (Lonz, Gerri, Paul, Margie's husband, Joanne) made any such SLA untenable; the board is volunteer/unpaid and shouldn't be hung on a response clock during illness/vacation/family emergencies. Ida's softening offer ("Please note, we are a volunteer board and delays beyond those timelines may be possible") didn't bring Mona around. **Mona's view is stronger and last in the thread; no timeline language goes on the site for now.** Footer Contact Us stays plain.
 
 ### May 21, 2026 — Terry call (with Ida + Mary Ann Butt)
 
