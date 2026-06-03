@@ -93,7 +93,7 @@ Rebuild and modernize the Sacred Heart Church website (nhshc.ca) for the parish 
 - [x] **Mona's draft content arrived (May 19)** — "About Us" copy + updated Board list received over the long weekend. Archived to `docs/about-us-mona-pearce.md`. Open flags: founding year "2004(?)" unconfirmed; new Mount Cashel/Archdiocese narrative needs tone+accuracy review (tension with Terry's "less project history" steer); board names changed (maiden names + corrected surnames — Ida Linehan→**Ida (Linehan) Young**, **Mona (Bonia) Pearce**). Mona also asks if Michael has her Christmas-drafted Support Us / Contact Us / Newsletter content + Newsletter PDFs — **reply needed**.
 - [ ] **Ida to do final stylistic edit of the site** — Mona's suggestion (May 14): once content is in, Ida polishes for voice/symmetry across all sections. Confirms Mona's earlier instinct that Ida should drive the writing voice. **Loop Ida in once content is loaded.**
 - [x] **Pre-launch chat with Terry — done May 21** (with Ida + Mary Ann). Decisions logged in the dated entry below. Mona out (last-minute floor-work scheduling). Group call to be rescheduled with Mona included.
-- [ ] **Splash page name** — keep "Sacred Heart Church" as primary headline; Terry to confirm whether the legal corp name appears as a subtitle and in what form (**Articles say "Corporation," Terry has been using "Inc."** — needs reconciliation). Naming consistency rule locked: whatever form is chosen is used everywhere on the site.
+- [x] **Splash page name — RESOLVED (Jun 2)** — Terry's June email set the splash heading + browser title to **"North Harbour Sacred Heart Church"** (the full name, not the corp/"Inc." form). Applied. Nav + footer brand kept as "Sacred Heart Church" per Terry's splash-only scope. Still open: the "Corporation" vs "Church Corporation" wording *inside* Terry's About Us body copy awaits his confirmation.
 - [ ] **Charitable status + tax-deductible language on Support Us** — must state we are a registered charitable organization and donations are tax deductible (Mona, Apr 25). Blocked on CRA registration number from Mary Ann.
 - [x] **Site contact info refresh (May 21)** — public email switched to `northharbourshc@gmail.com` in footer; mailing address updated to "Box 23, Site 5, North Harbour, St. Mary's Bay, NL A0B 2V0" in footer + Support Us "By Mail" card. "Contact Us" label added above the footer email block (gold Cinzel, matches Church/Documents column titles).
 - [ ] **Outstanding from team (post-May 21 call)** — fresh recap email to be sent by Michael:
@@ -135,11 +135,11 @@ A custom-branded HTML email template for Kit, matching the Classic Heritage site
 - [x] **Cemetery section rewrite — Ida's copy received May 21, applied May 25.** Replaces the inaccurate "restoring every headstone" placeholder with Ida's narrative: 2024 ownership transfer from the St. John's Episcopal Corporation, beautification (trees/brush, parking lot, grounds), and the partnership with Shawn Power (gravesites/photos link integrated inline; the standalone CTA card was dropped per Ida's flow). Section title also changed: "Cemetery Restoration" → "Our Cemetery". **Open for Terry:** confirm the year ("2024") and the exact entity name (Ida wrote "St. John's Episcopal Corporation"; Mona's About Us draft had "Roman Catholic Episcopal Corporation of St. John's" — reconcile).
 - [ ] **Support Us copy — incoming from Mona** (May 21 email: "I still need to find my suggestions for the [Support Us] tab, but will send it along in the next day or so. Ida can edit!"). Watch inbox.
 - [ ] **Response-time commitment on site — PARKED, do not add.** Ida proposed a stated turnaround for emails/mail; Mona pushed back (volunteer board, can't commit timelines, recent bereavements in mind). Mona's view stronger and last in thread. No timeline language on the site for now; leave footer Contact Us as-is. Revisit only if the board agrees a soft expectation.
-- [x] **Our Story section direction settled (May 21)** — Our Story stays poetic (Ida's voice already on page). Project-history narrative split into its own **About Us** section above Board of Directors (copy owed by Terry). Mount Cashel material dropped per Ida's May 19 vote.
-- [x] **Footer Documents section — built** (Sprint 4). Currently includes Articles of Incorporation, Bylaws, Meeting Minutes, Financial Statements links — launches with "under construction" disclaimer until PDFs are uploaded.
+- [x] **Our Story section direction settled (May 21)** — Our Story stays poetic (Ida's voice already on page). Project-history narrative split into its own **About Us** section above Board of Directors (copy owed by Terry). Mount Cashel material dropped per Ida's May 19 vote. **Terry's About Us copy received + published Jun 2** — section now live between Cemetery and Board.
+- [x] **Footer Documents section — built** (Sprint 4; updated Jun 2). Now links the real Articles of Incorporation (PDF) + By-Laws (docx); the Meeting Minutes / Financial Statements placeholders were removed to avoid 404s. "Under construction" disclaimer retained. A full **Documents section** also now lives in the page body (under About Us → Board).
 - [x] **"Under construction" disclaimer — in place** in the footer Documents column.
 - [ ] **CanadaHelps direct link** — current link goes to canadahelps.org homepage. Email sent to Mary Ann Apr 17 requesting direct donation page URL or CRA charity registration number (BN). Will update once received.
-- [ ] **Sprint 5: Deploy to GitHub Pages** — target: May 2026. DNS cutover ready. Blocked on cemetery rewrite + Our Story revision + nav-structure consensus.
+- [~] **Sprint 5: Deploy to GitHub Pages** — site is **live on the GitHub Pages preview** (https://michaelorsd.github.io/SHC/), auto-deploying from `main` via `.github/workflows/deploy.yml` (latest content push Jun 2, `43eff0d`). **Remaining: DNS cutover to nhshc.ca** — Melvin updates DNS; email stays on DreamHost. (Workflow note: `actions/*` steps run on Node 20, which GitHub retires Jun 16 2026 — bump versions before then.)
 - [ ] **Sprint 6: Handoff & maintenance docs**
 
 ### Previous (Apr 17, 2026)
@@ -258,6 +258,38 @@ A custom-branded HTML email template for Kit, matching the Classic Heritage site
 - Created 3 design prompts in `docs/design-prompts.md` for mockup generation
 - Budget set at ~$800-1200 for Phase 1 basic site
 - Scheduled Mar 8 meeting at 1:00 PM with Terry
+
+### June 3, 2026 — Terry's Reply (team review round) + Second Tweak Batch
+
+Terry replied to the June 2 summary note; he's forwarded the site to the team for "one last round of input." His responses + a second set of tweaks, all applied same day:
+
+1. **"Church" inserted** — About Us opening now reads "The North Harbour Sacred Heart **Church** Corporation…" (matches the Articles). Terry: "that was a miss on my part." **Resolved** — the body-copy naming inconsistency is closed.
+2. **By-Laws PDF incoming** — Terry only had the Word version; he's saved it as PDF and asked the team to check formatting (a few headings slightly off) before sending. Will swap `bylaws.docx` → PDF on receipt.
+3. **First-page title** — Terry asked it show "North Harbour Sacred Heart Church." Already live (splash `<h1>` + browser `<title>`); he was likely viewing a cached copy. Replied with hard-refresh guidance.
+4. **Built by Hand copy** — applied: "the care of this **parish**" → "the care of this **church and cemetery**"; "**Fences are mended**" → "**Old fences are cleared**".
+5. **Subscribe visibility (team input pending)** — Terry wants "Subscribe" more prominent and the framing broadened beyond just the newsletter ("we may look at adding something like: *If you wish to receive regular communications from us, please subscribe here*"), kept in the newsletter section. Draft treatment prepared by Michael; **awaiting the team's final wording** before finalizing.
+
+**Launch readiness (Terry asked "is there much left?"):** Replied — little left technically. Site is built + live on the GitHub Pages preview; launching = DNS cutover pointing **nhshc.ca** at it (< 1 hr work + a few hrs propagation), done carefully to preserve the DreamHost email MX records. Non-blockers still outstanding: high-res hero photos, direct CanadaHelps donation URL, CRA charity # for the tax-deductible line. **Potential go-live early next week** if the team's final tweaks land by end of this week. Terry flagged a few more tweaks may come from the team.
+
+### June 2, 2026 — Terry's June Tweaks Applied + Deployed
+
+**Two emails from Terry (relayed via Michael).** Email 1: the approved **"About Us"** copy ("here is where we landed"). Email 2: a list of site tweaks. All applied, committed (`43eff0d`), and pushed live to the GitHub Pages preview the same day.
+
+**Changes applied:**
+- **Full name** — splash `<h1>` and browser `<title>` → "North Harbour Sacred Heart Church". Nav brand + footer brand deliberately left as "Sacred Heart Church" (Terry scoped this to the splash page).
+- **Copy edits** — Our Story ¶2 → full name; Carried Forward → "our church"; Built by Hand opening → "Our church"; Open & Accountable → "Our corporation is committed… how the church" and "parishioners" replaced with "all community members and those connected to our church and cemetery".
+- **Nav** — "Leadership" → **About Us**; "Support Us" → **Support our Church & Cemetery** (section heading + hero CTA updated to match for consistency).
+- **New About Us section** — Terry's approved corporation copy, placed after Cemetery, flowing into Board of Directors then a new **Documents** section (the inline scroll sequence Michael chose over a dropdown/separate page).
+- **New Documents section** — Articles of Incorporation (real PDF, `site/documents/articles-of-incorporation.pdf`, filed Jan 19 2023) + By-Laws (`bylaws.docx`). Footer Documents column trimmed to these two real files (dropped the meeting-minutes/financial-statements 404 placeholders).
+- **Past Newsletters** — archive list (Nov 2025, Feb 2024, Jul 2023) added under the Kit signup; PDFs copied into `site/Newsletters/`.
+
+**Deploy:** pushed to `main` → `Deploy to GitHub Pages` Action succeeded in 12s. Live + all 5 assets return 200 at https://michaelorsd.github.io/SHC/. **DNS cutover to nhshc.ca still pending** (site is on the github.io preview URL, not the custom domain yet).
+
+**Open for Terry (now publicly live as-is):**
+- **Name inconsistency in his About Us copy** — opening sentence reads "The North Harbour Sacred Heart **Corporation**" (no "Church"); the next paragraph and the Articles use "…**Church** Corporation". Reproduced verbatim, awaiting his call on whether the first line should include "Church". (One obvious typo fixed: his unclosed `(the "Archdiocese)` quote.)
+- **By-Laws as `.docx`** — no PDF converter available locally; hosted as the Word doc Terry sent. Swap to PDF when one is provided.
+
+**Note:** a summary note for Terry was drafted (commit/deploy recap + the two confirmation items) for Michael to send by email or text.
 
 ### May 25, 2026 — Ida's Cemetery Copy + Mona/Ida Response-Time Debate
 
@@ -425,6 +457,18 @@ Welcome email to Michael with structural feedback on the site. Key points:
 | May 14, 2026 | **Multi-page restructure withdrawn — single-page approach confirmed** | Mona accepted the single-page format after the explainer ("clear as mud :-). Thank you for explaining it to me. I hadn't worked on a scrolling website format in the past"). Path to May launch unblocked on structural question |
 | May 14, 2026 | Mona's draft content arriving by May 16–17 | Mona to send through draft copy by the weekend. Ida nominated by Mona as the final stylistic editor of the site for voice symmetry |
 | May 14, 2026 | Pre-launch chat with Terry — week of May 18 | Terry wants to meet after Mona's content lands to discuss any remaining gaps before launch. Asked Michael to pre-brief him on the email-capture / newsletter campaign solution (Kit) |
+| Jun 2, 2026 | **Splash name resolved: "North Harbour Sacred Heart Church"** | Terry's June email settled the long-open splash-name question. Applied to hero `<h1>` + page `<title>`. Nav/footer brand kept short ("Sacred Heart Church") per Terry's splash-only scope |
+| Jun 2, 2026 | About Us copy received + published | Terry's approved corporation copy. Built as an inline section (Cemetery → About Us → Board → Documents), not a dropdown/separate page |
+| Jun 2, 2026 | "Leadership" tab → "About Us"; "Support Us" → "Support our Church & Cemetery" | Terry's June tweaks. Support section heading + hero CTA updated to match |
+| Jun 2, 2026 | Documents section now serves real files | Articles of Incorporation (PDF) + By-Laws (docx) live. Meeting-minutes/financial-statements placeholders dropped to avoid 404s |
+| Jun 2, 2026 | Past Newsletters archive added | Nov 2025 / Feb 2024 / Jul 2023 PDFs linked under the Kit signup (Michael's call: signup section, not the Support section) |
+| Jun 2, 2026 | Deployed updated site to GitHub Pages preview | Commit `43eff0d` pushed to `main`; Action succeeded; all assets 200 at michaelorsd.github.io/SHC. **DNS cutover to nhshc.ca still pending** |
+| Jun 2, 2026 | Two items flagged for Terry (live as-is) | (1) "Corporation" vs "Church Corporation" wording in his About Us first line; (2) By-Laws hosted as .docx pending a PDF |
+| Jun 3, 2026 | About Us name inconsistency **resolved** | Terry: "insert Church — that was a miss." Opening line now "North Harbour Sacred Heart Church Corporation" |
+| Jun 3, 2026 | Built by Hand copy tweaks | "this parish" → "this church and cemetery"; "Fences are mended" → "Old fences are cleared" (Terry) |
+| Jun 3, 2026 | By-Laws PDF inbound | Terry converting Word → PDF, team checking formatting; swap `.docx` → PDF on receipt |
+| Jun 3, 2026 | Subscribe to be made more prominent + broader framing | Reframe beyond newsletter ("regular communications from us"); kept in newsletter section. Draft prepared; awaiting team's final wording |
+| Jun 3, 2026 | Launch = DNS cutover only | Site built + live on preview. Remaining: point nhshc.ca at GitHub Pages (preserve email MX). Possible go-live early week of Jun 8 |
 
 ---
 

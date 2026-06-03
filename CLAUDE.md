@@ -42,14 +42,24 @@ SHC/
 ## Project Status
 
 - **Tech stack: HTML/CSS/JS (static)** — decided Apr 9. No framework, no build tools. Hosted on DreamHost via SFTP.
-- **Design direction: Classic Heritage + "Built by Hand" section from Modern & Clean** — Terry Power's pick, awaiting final sign-off.
-- **Hosting: GitHub Pages (planned)** — migrating from DreamHost. Email stays on DreamHost (~$24/yr). Domain owned by Melvin Leonard (free of charge to church).
+- **Design direction: Classic Heritage + "Built by Hand" section from Modern & Clean** — Terry approved Apr 16 ("go ahead with the build").
+- **Hosting: GitHub Pages (live preview)** — site auto-deploys `site/` from `main` via `.github/workflows/deploy.yml` to https://michaelorsd.github.io/SHC/. **DNS cutover to nhshc.ca still pending** (Melvin updates DNS; email stays on DreamHost, ~$24/yr). Domain owned by Melvin Leonard (free of charge to church).
 - Development is tracked in phases in `project.md` (Phase 0: Design → Phase 1: Foundation → Phase 2: Core Pages → Phase 3: Enhancements → Phase 4: Launch)
 
 ### Terry's Design Revisions (Mar 6, 2026)
-- "Support Our Parish" → **"Support Our Church"**
-- Section order: Hero → Our Story → Cemetery → Board of Directors → Ways to Give → Newsletter → Footer
+- "Support Our Parish" → "Support Our Church" (later → **"Support our Church & Cemetery"**, Jun 2)
 - Board of Directors moved below Cemetery section
+
+### Terry's June 2, 2026 Revisions (applied + live)
+- **Splash heading + page `<title>`** → "North Harbour Sacred Heart Church" (nav/footer brand stay "Sacred Heart Church" — splash-only scope).
+- Nav: "Leadership" → **About Us**; "Support Us" → **Support our Church & Cemetery**.
+- **Current section order:** Hero → Our Story → Built by Hand → Cemetery → **About Us** → Board of Directors → **Documents** → Ways to Give → Newsletter → Footer.
+- New **About Us** section (Terry's approved corporation copy) and new **Documents** section (Articles of Incorporation PDF + By-Laws docx). **Past Newsletters** archive added under the Kit signup.
+
+### Terry's June 3, 2026 Revisions (applied + live)
+- About Us opening → "North Harbour Sacred Heart **Church** Corporation" (naming inconsistency resolved per Terry).
+- Built by Hand: "this parish" → "this church and cemetery"; "Fences are mended" → "Old fences are cleared".
+- **In progress:** By-Laws PDF inbound from Terry (swap `.docx` → PDF on receipt); making **Subscribe** more prominent + broader "regular communications" framing in the newsletter section (awaiting team's final wording).
 
 ## Church Leadership (Board of Directors) — Updated May 19, 2026
 Names per Mona's May 19 list (maiden names in parentheses for female members, so readers connect them to North Harbour; members may opt out via Michael). Corrected surnames vs. prior list: Ida (Linehan) **Young**; Mona (Bonia) Pearce.
@@ -61,7 +71,7 @@ Names per Mona's May 19 list (maiden names in parentheses for female members, so
 - **Director:** Ken Walsh
 
 ## Corporation & Contacts (confirmed May 21, 2026 meeting + Articles of Incorporation)
-- **Legal corporation name:** North Harbour Sacred Heart Church **Corporation** (per Articles of Incorporation filed Jan 19, 2023 — `docs/2023 01 19 Inc. Articles.pdf`). Terry believed "Inc." — the Articles use "Corporation" throughout. **Pending Terry's confirmation** as to which form the board wants to publish; Articles are authoritative.
+- **Legal corporation name:** North Harbour Sacred Heart Church **Corporation** (per Articles of Incorporation filed Jan 19, 2023 — `docs/2023 01 19 Inc. Articles.pdf`). Terry believed "Inc." — the Articles use "Corporation" throughout. **Splash resolved (Jun 2):** the public site uses the plain church name "North Harbour Sacred Heart Church" as the splash heading/title. **Resolved (Jun 3):** Terry confirmed the opening should include "Church" — About Us now reads "North Harbour Sacred Heart **Church** Corporation" throughout, matching the Articles.
 - **Founding year:** 2023 (incorporation filed Jan 19, 2023).
 - **Primary email:** northharbourshc@gmail.com (confirmed Apr 9 by Terry as the donations Gmail he monitors; reaffirmed May 21). Supersedes prior `nhshcinfo@gmail.com` and `nhChurch@nhshc.ca` for public-facing use.
 - **E-Transfer mailbox:** nhChurch@nhshc.ca (Bill Power set this up; Terry to confirm whether this or the Gmail is the donations-of-record address).
