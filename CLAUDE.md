@@ -59,7 +59,13 @@ SHC/
 ### Terry's June 3, 2026 Revisions (applied + live)
 - About Us opening → "North Harbour Sacred Heart **Church** Corporation" (naming inconsistency resolved per Terry).
 - Built by Hand: "this parish" → "this church and cemetery"; "Fences are mended" → "Old fences are cleared".
-- **In progress:** By-Laws PDF inbound from Terry (swap `.docx` → PDF on receipt); making **Subscribe** more prominent + broader "regular communications" framing in the newsletter section (awaiting team's final wording).
+
+### Terry's June 4, 2026 Revisions (applied + live)
+- **Full church name** now in the nav brand, footer brand, **and** footer copyright (not just the splash). Nav restyled (smaller brand, link gap, breakpoint 700→**880px**) to fit.
+- **Charitable / tax-deductible copy** added under the Support intro (Terry's exact wording — resolves the long-pending charitable-status item).
+- **By-Laws → PDF** (`documents/bylaws.pdf`; docx removed).
+- Newsletter area renamed **"Stay in Touch"** (nav tab + H2) and restructured: eyebrow → intro → email + Subscribe (✉ icon, gold glow) → **tabs: Newsletters | Updates**. Updates tab is a **placeholder pending board content**.
+- **Still open:** Updates-tab content; final Stay-in-Touch/Subscribe wording (team may revise).
 
 ## Church Leadership (Board of Directors) — Updated May 19, 2026
 Names per Mona's May 19 list (maiden names in parentheses for female members, so readers connect them to North Harbour; members may opt out via Michael). Corrected surnames vs. prior list: Ida (Linehan) **Young**; Mona (Bonia) Pearce.

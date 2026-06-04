@@ -22,7 +22,7 @@
 <!-- NAV -->
 <nav aria-label="Main navigation">
   <div class="nav-inner">
-    <a href="#hero" class="nav-brand">&#10013; Sacred Heart Church</a>
+    <a href="#hero" class="nav-brand">&#10013; North Harbour Sacred Heart Church</a>
     <button class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
       <span></span><span></span><span></span>
     </button>
@@ -30,7 +30,7 @@
       <li><a href="#story">Our Story</a></li>
       <li><a href="#cemetery">Cemetery</a></li>
       <li><a href="#about">About Us</a></li>
-      <li><a href="#newsletter">Newsletter</a></li>
+      <li><a href="#newsletter">Stay in Touch</a></li>
       <li class="nav-separator" aria-hidden="true"></li>
       <li><a href="#donate" class="nav-support">Support our Church &amp; Cemetery</a></li>
     </ul>
@@ -278,11 +278,11 @@
         </a>
       </li>
       <li>
-        <a href="documents/bylaws.docx" target="_blank" rel="noopener">
+        <a href="documents/bylaws.pdf" target="_blank" rel="noopener">
           <span class="doc-icon" aria-hidden="true">&#128196;</span>
           <span class="doc-text">
             <span class="doc-name">By-Laws</span>
-            <span class="doc-meta">Word document</span>
+            <span class="doc-meta">PDF</span>
           </span>
         </a>
       </li>
@@ -303,6 +303,9 @@
 
     <p class="donate-body">
       The ongoing care and security of Sacred Heart Church depends on the generosity of this community and extended family and friends around the world.
+    </p>
+    <p class="donate-body donate-tax">
+      As a charitable organisation, all donations are tax deductible, with receipts forwarded to donors by the end of February for the previous tax year. Donors who wish to remain anonymous should know that they are also eligible for a tax receipt.
     </p>
 
     <div class="donate-methods three-col">
@@ -353,11 +356,11 @@
 <section id="newsletter" aria-label="Stay Connected">
   <div class="newsletter-wrap">
     <span class="section-label" style="color:var(--gold);">Let's Stay Connected</span>
-    <h2 class="section-title light">Church Newsletter</h2>
+    <h2 class="section-title light">Stay in Touch</h2>
     <hr class="rule" style="opacity:0.2;">
     <div class="section-body">
       <p>
-        Sign up to receive church updates, news of restoration work, upcoming events, and community announcements directly by email.
+        Sign up to receive our newsletter and regular communications from North Harbour Sacred Heart Church &mdash; updates on restoration work, upcoming events, and community announcements &mdash; directly by email.
       </p>
     </div>
 
@@ -372,7 +375,7 @@
           </div>
           <button data-element="submit" class="formkit-submit">
             <span class="formkit-spinner"><span></span><span></span><span></span></span>
-            <span>Subscribe</span>
+            <span><span class="submit-icon" aria-hidden="true">&#9993;</span>&nbsp;Subscribe</span>
           </button>
         </div>
       </form>
@@ -380,13 +383,24 @@
 
     <p class="newsletter-privacy">Your address will only be used for church communications.</p>
 
-    <div class="past-newsletters">
-      <h3 class="past-newsletters-title">Past Newsletters</h3>
-      <ul class="newsletter-archive">
-        <li><a href="Newsletters/Church Newsletter 18 November 2025.pdf" target="_blank" rel="noopener">November 2025 &#8599;</a></li>
-        <li><a href="Newsletters/Church Newsletter 14 February 2024.pdf" target="_blank" rel="noopener">February 2024 &#8599;</a></li>
-        <li><a href="Newsletters/Church Newsletter 19 July 2023.pdf" target="_blank" rel="noopener">July 2023 &#8599;</a></li>
-      </ul>
+    <!-- Newsletters / Updates tabs -->
+    <div class="connect-tabs">
+      <div class="tab-buttons" role="tablist" aria-label="Newsletters and updates">
+        <button type="button" class="tab-btn is-active" role="tab" aria-selected="true" aria-controls="tab-newsletters" id="tabbtn-newsletters">Newsletters</button>
+        <button type="button" class="tab-btn" role="tab" aria-selected="false" aria-controls="tab-updates" id="tabbtn-updates">Updates</button>
+      </div>
+
+      <div class="tab-panel is-active" id="tab-newsletters" role="tabpanel" aria-labelledby="tabbtn-newsletters">
+        <ul class="newsletter-archive">
+          <li><a href="Newsletters/Church Newsletter 18 November 2025.pdf" target="_blank" rel="noopener">November 2025 &#8599;</a></li>
+          <li><a href="Newsletters/Church Newsletter 14 February 2024.pdf" target="_blank" rel="noopener">February 2024 &#8599;</a></li>
+          <li><a href="Newsletters/Church Newsletter 19 July 2023.pdf" target="_blank" rel="noopener">July 2023 &#8599;</a></li>
+        </ul>
+      </div>
+
+      <div class="tab-panel" id="tab-updates" role="tabpanel" aria-labelledby="tabbtn-updates" hidden>
+        <p class="tab-empty">Community updates and announcements will be posted here. Check back soon &mdash; or subscribe above to receive them by email.</p>
+      </div>
     </div>
 
     <!-- Uncomment when Facebook group exists:
@@ -405,7 +419,7 @@
     <div class="footer-top">
 
       <div>
-        <div class="footer-brand">&#10013; Sacred Heart Church</div>
+        <div class="footer-brand">&#10013; North Harbour Sacred Heart Church</div>
         <p class="footer-tagline">&ldquo;Rooted in faith, shaped by community,<br>guided by kindness.&rdquo;</p>
         <p class="footer-col-title">Contact Us</p>
         <div class="footer-contact">
@@ -422,7 +436,7 @@
           <li><a href="#about">About Us</a></li>
           <li><a href="#board">Board of Directors</a></li>
           <li><a href="#donate">Support our Church &amp; Cemetery</a></li>
-          <li><a href="#newsletter">Newsletter</a></li>
+          <li><a href="#newsletter">Stay in Touch</a></li>
         </ul>
       </div>
 
@@ -430,7 +444,7 @@
         <p class="footer-col-title">Documents</p>
         <ul class="footer-links">
           <li><a href="documents/articles-of-incorporation.pdf" target="_blank">Articles of Incorporation</a></li>
-          <li><a href="documents/bylaws.docx" target="_blank">By-Laws</a></li>
+          <li><a href="documents/bylaws.pdf" target="_blank">By-Laws</a></li>
           <li><a href="#documents">All Documents</a></li>
         </ul>
         <p class="footer-docs-note">This site is currently in its first iteration. Not all documents are available at this time.</p>
@@ -439,7 +453,7 @@
     </div>
 
     <div class="footer-bottom">
-      <span class="footer-copy">&copy; 2026 Sacred Heart Church, North Harbour, NL. All rights reserved.</span>
+      <span class="footer-copy">&copy; 2026 North Harbour Sacred Heart Church, NL. All rights reserved.</span>
       <span class="footer-cross" aria-hidden="true">&#10013;</span>
     </div>
   </div>
@@ -464,6 +478,28 @@
         });
       });
     }
+  })();
+
+  // Stay in Touch — Newsletters / Updates tabs
+  (function() {
+    var tablist = document.querySelector('.connect-tabs');
+    if (!tablist) return;
+    var buttons = tablist.querySelectorAll('.tab-btn');
+    buttons.forEach(function(btn) {
+      btn.addEventListener('click', function() {
+        var panelId = btn.getAttribute('aria-controls');
+        buttons.forEach(function(b) {
+          var selected = b === btn;
+          b.classList.toggle('is-active', selected);
+          b.setAttribute('aria-selected', selected ? 'true' : 'false');
+        });
+        tablist.querySelectorAll('.tab-panel').forEach(function(panel) {
+          var show = panel.id === panelId;
+          panel.classList.toggle('is-active', show);
+          if (show) { panel.removeAttribute('hidden'); } else { panel.setAttribute('hidden', ''); }
+        });
+      });
+    });
   })();
 </script>
 

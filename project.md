@@ -94,7 +94,7 @@ Rebuild and modernize the Sacred Heart Church website (nhshc.ca) for the parish 
 - [ ] **Ida to do final stylistic edit of the site** — Mona's suggestion (May 14): once content is in, Ida polishes for voice/symmetry across all sections. Confirms Mona's earlier instinct that Ida should drive the writing voice. **Loop Ida in once content is loaded.**
 - [x] **Pre-launch chat with Terry — done May 21** (with Ida + Mary Ann). Decisions logged in the dated entry below. Mona out (last-minute floor-work scheduling). Group call to be rescheduled with Mona included.
 - [x] **Splash page name — RESOLVED (Jun 2)** — Terry's June email set the splash heading + browser title to **"North Harbour Sacred Heart Church"** (the full name, not the corp/"Inc." form). Applied. Nav + footer brand kept as "Sacred Heart Church" per Terry's splash-only scope. Still open: the "Corporation" vs "Church Corporation" wording *inside* Terry's About Us body copy awaits his confirmation.
-- [ ] **Charitable status + tax-deductible language on Support Us** — must state we are a registered charitable organization and donations are tax deductible (Mona, Apr 25). Blocked on CRA registration number from Mary Ann.
+- [x] **Charitable status + tax-deductible language on Support Us — DONE (Jun 4)** — Terry supplied exact wording; now live under the Support intro (tax-deductible; receipts by end of Feb for the prior tax year; anonymous donors still eligible). Resolves Mona's Apr 25 ask. (A formal CRA registration # / BN is still outstanding from Mary Ann if the board later wants the number displayed, but the copy no longer blocks on it.)
 - [x] **Site contact info refresh (May 21)** — public email switched to `northharbourshc@gmail.com` in footer; mailing address updated to "Box 23, Site 5, North Harbour, St. Mary's Bay, NL A0B 2V0" in footer + Support Us "By Mail" card. "Contact Us" label added above the footer email block (gold Cinzel, matches Church/Documents column titles).
 - [ ] **Outstanding from team (post-May 21 call)** — fresh recap email to be sent by Michael:
   - Terry: confirm legal name form (Corporation vs Inc.); confirm `northharbourshc@gmail.com` is also the donations-of-record address; deliver updated About Us copy (Terry took ownership; placement = above Board).
@@ -128,7 +128,7 @@ A custom-branded HTML email template for Kit, matching the Classic Heritage site
 
 **Cost at church rate ($55.50/hr): ~$500.** Not included in the original $1,200 scope — this would be a separate small engagement, billed only if/when the church wants the custom template built. Plain Kit template is fully functional at launch; custom styling is a quality-of-life upgrade.
 - [x] **Confirmed legal corporation name from Articles of Incorporation (May 21)** — **"North Harbour Sacred Heart Church Corporation"** (`docs/2023 01 19 Inc. Articles.pdf`, filed Jan 19, 2023). Terry has been using "Inc." which contradicts the Articles. Terry to choose which form to publish on the splash; whichever it is, used consistently everywhere.
-- [ ] **Add charitable status messaging to Support Us** — must state we are a registered charitable organization and donations are tax deductible (Mona, Apr 25).
+- [x] **Add charitable status messaging to Support Us — DONE (Jun 4)** — Terry's tax-deductible / receipts wording now live in the Support section.
 - [x] **History piece received from Ida (Apr 29)** — Anne Marie Dalton's "Recollections and Records – Establishing the History of North Harbour Church" forwarded by Ida. Saved to `docs/history-anne-marie-dalton.md` (PDF original also available from Ida if needed).
 - [x] **History integration (May 19)** — Ida's call: full piece on its own page (`site/history.html`), surfaced via an understated "More history →" link in Our Story (no excerpt taking word space on the homepage). Built and live in the working site. Open: replace placeholder permission line if Anne Marie wants different wording; optional — swap the standalone page for a downloadable PDF if the board prefers a true file download (easy change).
 - [x] **Mona's prior content suggestions — received** — About Us draft (May 19, `docs/about-us-mona-pearce.md`) + Contact Us draft (May 21, `docs/contact-us-mona-pearce.md`). About Us being rewritten by Terry per May 21 call; Contact Us absorbed into footer (no dedicated section).
@@ -258,6 +258,17 @@ A custom-branded HTML email template for Kit, matching the Classic Heritage site
 - Created 3 design prompts in `docs/design-prompts.md` for mockup generation
 - Budget set at ~$800-1200 for Phase 1 basic site
 - Scheduled Mar 8 meeting at 1:00 PM with Terry
+
+### June 4, 2026 — Third Tweak Batch (post hard-refresh) + By-Laws PDF
+
+Terry hard-refreshed and confirmed the June 3 changes, then sent a third batch. All applied + deployed same day.
+
+- **Full name in the persistent brand + footer** — Terry noticed the top-bar **nav brand** and the **footer** still read "Sacred Heart Church" (he called the top bar "the browser tab"; the OS `<title>` was already correct). Updated nav brand, footer brand, **and** the footer copyright line to "North Harbour Sacred Heart Church". Nav brand shrunk (0.85→0.72rem) + link gap tightened + mobile breakpoint raised 700→880px so the longer brand doesn't crowd the desktop row. **Eyeball check recommended** on mid-size laptop widths.
+- **Charitable / tax-deductible copy added** (resolves the long-pending Mona Apr 25 ask) — Support section, after the first sentence: "As a charitable organisation, all donations are tax deductible, with receipts forwarded to donors by the end of February for the previous tax year. Donors who wish to remain anonymous should know that they are also eligible for a tax receipt." (Terry's exact wording.)
+- **By-Laws now PDF** — Terry sent the PDF (`/Downloads/2023-01-19-Sacred Heart RCC By-Law.pdf`); swapped `bylaws.docx` → `bylaws.pdf` in the Documents section + footer; removed the docx.
+- **"Stay in Touch" restructure** — nav tab "Newsletter" → **"Stay in Touch"**; section H2 "Church Newsletter" → "Stay in Touch". New order per Terry: eyebrow "Let's Stay Connected" → intro → email + **Subscribe** (kept the Jun 3 prominence: ✉ icon + gold glow; dropped the draft invitation line) → a **tabbed area with two tabs: Newsletters | Updates**. Newsletters tab = the 3 past-newsletter PDFs; **Updates tab = placeholder** ("updates will be posted here") — **needs content from the board**. Tab switching via a small vanilla-JS handler.
+
+**Still open:** Updates-tab content; final wording of the Stay in Touch / Subscribe copy (team may still revise); the non-blocker launch items (hero photos, CanadaHelps direct link, CRA charity # — though the tax-receipt copy is now in regardless).
 
 ### June 3, 2026 — Terry's Reply (team review round) + Second Tweak Batch
 
@@ -469,6 +480,10 @@ Welcome email to Michael with structural feedback on the site. Key points:
 | Jun 3, 2026 | By-Laws PDF inbound | Terry converting Word → PDF, team checking formatting; swap `.docx` → PDF on receipt |
 | Jun 3, 2026 | Subscribe to be made more prominent + broader framing | Reframe beyond newsletter ("regular communications from us"); kept in newsletter section. Draft prepared; awaiting team's final wording |
 | Jun 3, 2026 | Launch = DNS cutover only | Site built + live on preview. Remaining: point nhshc.ca at GitHub Pages (preserve email MX). Possible go-live early week of Jun 8 |
+| Jun 4, 2026 | Full name in nav brand + footer + copyright | Terry wanted "North Harbour" in the persistent top bar and page bottom, not just the splash. Nav restyled (smaller brand, 880px breakpoint) to fit |
+| Jun 4, 2026 | **Charitable/tax-deductible copy live** | Resolves Mona's Apr 25 ask. Terry's exact wording added under the Support intro (receipts by end of Feb; anonymous donors still eligible) |
+| Jun 4, 2026 | By-Laws → PDF | Terry sent the PDF; `bylaws.docx` swapped out + removed |
+| Jun 4, 2026 | "Newsletter" → "Stay in Touch" + Newsletters/Updates tabs | Tab renamed; section restructured into a tabbed area. Updates tab is a placeholder pending board content |
 
 ---
 
