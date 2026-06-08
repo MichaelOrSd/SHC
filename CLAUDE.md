@@ -43,7 +43,7 @@ SHC/
 
 - **Tech stack: HTML/CSS/JS (static)** — decided Apr 9. No framework, no build tools. Hosted on DreamHost via SFTP.
 - **Design direction: Classic Heritage + "Built by Hand" section from Modern & Clean** — Terry approved Apr 16 ("go ahead with the build").
-- **Hosting: GitHub Pages — 🚀 LIVE at https://nhshc.ca** (launched Jun 8, 2026). Site auto-deploys `site/` from `main` via `.github/workflows/deploy.yml`; custom domain set via `site/CNAME`. DNS at DreamHost = "DNS Only" (apex A → GitHub IPs `185.199.108–111.153`, `www` CNAME → `michaelorsd.github.io`); **email stays on DreamHost** (MX/SPF/DKIM untouched). Domain owned by Melvin Leonard (free to church). **Tails:** enable Enforce HTTPS once cert issues; Melvin to downgrade DreamHost to email-only (~$24/yr) before the 2026-07-30 hosting renewal; domain auto-renew is OFF (exp 2027-03-27).
+- **Hosting: GitHub Pages — 🚀 LIVE at https://nhshc.ca** (launched Jun 8, 2026). Site auto-deploys `site/` from `main` via `.github/workflows/deploy.yml`; custom domain set via `site/CNAME`. DNS at DreamHost = "DNS Only" (apex A → GitHub IPs `185.199.108–111.153`, `www` CNAME → `michaelorsd.github.io`); **email stays on DreamHost** (MX/SPF/DKIM untouched). Domain owned by Melvin Leonard (free to church). **HTTPS enforced (Let's Encrypt, auto-renews).** **Tails:** Melvin to downgrade DreamHost to email-only (~$24/yr) before the 2026-07-30 hosting renewal; domain auto-renew is OFF (exp 2027-03-27).
 - Development is tracked in phases in `project.md` (Phase 0: Design → Phase 1: Foundation → Phase 2: Core Pages → Phase 3: Enhancements → Phase 4: Launch)
 
 ### Terry's Design Revisions (Mar 6, 2026)
