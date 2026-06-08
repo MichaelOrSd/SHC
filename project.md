@@ -139,7 +139,7 @@ A custom-branded HTML email template for Kit, matching the Classic Heritage site
 - [x] **Footer Documents section — built** (Sprint 4; updated Jun 2). Now links the real Articles of Incorporation (PDF) + By-Laws (docx); the Meeting Minutes / Financial Statements placeholders were removed to avoid 404s. "Under construction" disclaimer retained. A full **Documents section** also now lives in the page body (under About Us → Board).
 - [x] **"Under construction" disclaimer — in place** in the footer Documents column.
 - [ ] **CanadaHelps direct link** — current link goes to canadahelps.org homepage. Email sent to Mary Ann Apr 17 requesting direct donation page URL or CRA charity registration number (BN). Will update once received.
-- [~] **Sprint 5: Deploy to GitHub Pages** — site is **live on the GitHub Pages preview** (https://michaelorsd.github.io/SHC/), auto-deploying from `main` via `.github/workflows/deploy.yml` (latest content push Jun 2, `43eff0d`). **Remaining: DNS cutover to nhshc.ca** — Melvin updates DNS; email stays on DreamHost. (Workflow note: `actions/*` steps run on Node 20, which GitHub retires Jun 16 2026 — bump versions before then.)
+- [x] **Sprint 5: Deploy + LAUNCH — DONE (Jun 8)** — site **live at https://nhshc.ca** via GitHub Pages (custom domain + `CNAME`), auto-deploying from `main` via `.github/workflows/deploy.yml`. DNS cutover completed in DreamHost (DNS Only + custom A/CNAME); email preserved. **Remaining tail:** enable Enforce HTTPS once the cert issues. (Workflow note: `actions/*` steps run on Node 20, which GitHub retires Jun 16 2026 — bump versions before then.)
 - [ ] **Sprint 6: Handoff & maintenance docs**
 
 ### Previous (Apr 17, 2026)
@@ -258,6 +258,23 @@ A custom-branded HTML email template for Kit, matching the Classic Heritage site
 - Created 3 design prompts in `docs/design-prompts.md` for mockup generation
 - Budget set at ~$800-1200 for Phase 1 basic site
 - Scheduled Mar 8 meeting at 1:00 PM with Terry
+
+### June 8, 2026 — 🚀 LAUNCHED on nhshc.ca (DNS cutover, email preserved)
+
+Terry gave the go-ahead; site is **live at https://nhshc.ca** (GitHub Pages). Cutover done live with Michael in the DreamHost panel — **zero email disruption.**
+
+**What was done:**
+- **GitHub side:** added `site/CNAME` (`nhshc.ca`) + set the Pages custom domain via API. Site serves the custom domain (HTTP 200, `Server: GitHub.com`).
+- **DreamHost side:** the apex `@`/`www` A records were DreamHost-managed (locked to hosting), so we **deactivated the website** (DreamHost "DNS Only" — explicitly *does not* touch hosting plan, files, custom DNS, or **email/MX**; reversible). Then added **custom records**: four apex `A` → `185.199.108–111.153` (GitHub) + `www` CNAME → `michaelorsd.github.io`.
+- **Email preserved + verified** via dig after cutover: MX (mailchannels) ✓, SPF ✓, DKIM (`dreamhost._domainkey`) ✓, `mail`/`webmail`/`mailboxes` A ✓. Nothing changed.
+- **Propagation:** completed within minutes (all major resolvers + local return GitHub IPs). Brief "Site Not Found" seen during the window = stale cache on the old (now-deactivated) IP; cleared on propagation/refresh.
+
+**Remaining (automatic):** GitHub Let's Encrypt **HTTPS certificate** provisioning — pending at time of writing; **Enforce HTTPS** to be switched on once issued. Until then the site loads but shows "Not Secure."
+
+**Follow-ups / notes:**
+- **Cost saving not yet realized:** DreamHost is "DNS Only" for *web*, but the **Shared Unlimited hosting plan is still active/billed** (renews 2026-07-30). The original plan was to drop to **email-only (~$24/yr)**. Melvin (account owner) would need to downgrade the plan to capture the savings — **do before 2026-07-30 renewal.**
+- **Domain auto-renew is OFF**, expires **2027-03-27** — flag to Melvin so it doesn't lapse.
+- Non-blockers still open: high-res hero photos, direct CanadaHelps link, **Updates-tab content**.
 
 ### June 4, 2026 — Third Tweak Batch (post hard-refresh) + By-Laws PDF
 
@@ -484,6 +501,11 @@ Welcome email to Michael with structural feedback on the site. Key points:
 | Jun 4, 2026 | **Charitable/tax-deductible copy live** | Resolves Mona's Apr 25 ask. Terry's exact wording added under the Support intro (receipts by end of Feb; anonymous donors still eligible) |
 | Jun 4, 2026 | By-Laws → PDF | Terry sent the PDF; `bylaws.docx` swapped out + removed |
 | Jun 4, 2026 | "Newsletter" → "Stay in Touch" + Newsletters/Updates tabs | Tab renamed; section restructured into a tabbed area. Updates tab is a placeholder pending board content |
+| Jun 8, 2026 | **🚀 Site LAUNCHED on nhshc.ca** | Terry approved go-live. GitHub Pages now serves the custom domain |
+| Jun 8, 2026 | Cutover method: DreamHost "DNS Only" + custom records | Deactivated the website (non-destructive to email/files/plan) so the apex could be repointed; added 4 apex A (GitHub IPs) + www CNAME |
+| Jun 8, 2026 | Email preserved through cutover | MX/SPF/DKIM/mail records untouched + verified via dig |
+| Jun 8, 2026 | HTTPS cert provisioning | Pending post-cutover; Enforce HTTPS to be enabled once Let's Encrypt issues |
+| Jun 8, 2026 | DreamHost cost-saving deferred | Hosting plan still billed (renews 2026-07-30); Melvin to downgrade to email-only (~$24/yr) before renewal |
 
 ---
 
