@@ -1,10 +1,11 @@
 # Statement of Work — News-Posting Admin Panel
 ### Sacred Heart Church Website · "Option 3"
 
-**Prepared for:** Terry Power & the Board, North Harbour Sacred Heart Church Corporation
-**Prepared by:** Michael
-**Date:** June 2026
-**Total:** ~$2,450 (~44 hours @ $55.50/hr, church rate) · **Ongoing cost: $0/month**
+**Prepared for:** Terry Power & the Board, North Harbour Sacred Heart Church Corporation<br>
+**Prepared by:** Michael<br>
+**Date:** June 2026<br>
+**Total:** ~$2,450 (~44 hours @ $55.50/hr, church rate)<br>
+**Ongoing cost:** $0/month
 
 ---
 
