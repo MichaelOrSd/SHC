@@ -138,7 +138,7 @@ A custom-branded HTML email template for Kit, matching the Classic Heritage site
 - [x] **Our Story section direction settled (May 21)** — Our Story stays poetic (Ida's voice already on page). Project-history narrative split into its own **About Us** section above Board of Directors (copy owed by Terry). Mount Cashel material dropped per Ida's May 19 vote. **Terry's About Us copy received + published Jun 2** — section now live between Cemetery and Board.
 - [x] **Footer Documents section — built** (Sprint 4; updated Jun 2). Now links the real Articles of Incorporation (PDF) + By-Laws (docx); the Meeting Minutes / Financial Statements placeholders were removed to avoid 404s. "Under construction" disclaimer retained. A full **Documents section** also now lives in the page body (under About Us → Board).
 - [x] **"Under construction" disclaimer — in place** in the footer Documents column.
-- [ ] **CanadaHelps direct link** — current link goes to canadahelps.org homepage. Email sent to Mary Ann Apr 17 requesting direct donation page URL or CRA charity registration number (BN). Will update once received.
+- [x] **CanadaHelps direct link — RESOLVED (Jul 23)** — Michael found the church's profile via web search: `canadahelps.org/en/charities/north-harbour-sacred-heart-church-corporation/`. Site donate links (homepage + AGM post) now point directly at it. **CRA registration # also obtained from the profile: 774630016RR0001** (the BN outstanding from Mary Ann since Apr). Open: board decision on displaying the BN on the site; Mary Ann to confirm the profile's registered address (51 Barrows Rd, St. John's) is intentional.
 - [x] **Sprint 5: Deploy + LAUNCH — DONE (Jun 8)** — site **live at https://nhshc.ca** via GitHub Pages (custom domain + `CNAME`), auto-deploying from `main` via `.github/workflows/deploy.yml`. DNS cutover completed in DreamHost (DNS Only + custom A/CNAME); email preserved. **HTTPS issued + Enforce HTTPS enabled (Jun 8).** (Workflow note: `actions/*` steps run on Node 20, which GitHub retires Jun 16 2026 — bump versions before then.)
 - [ ] **Sprint 6: Handoff & maintenance docs**
 
@@ -258,6 +258,15 @@ A custom-branded HTML email template for Kit, matching the Classic Heritage site
 - Created 3 design prompts in `docs/design-prompts.md` for mockup generation
 - Budget set at ~$800-1200 for Phase 1 basic site
 - Scheduled Mar 8 meeting at 1:00 PM with Terry
+
+### July 23, 2026 (later) — CanadaHelps profile + CRA number FOUND; two emails drafted
+
+While prepping Terry's reply, Michael located the church's **CanadaHelps charity profile** via web search — closing two items open since April:
+
+- **Profile:** `canadahelps.org/en/charities/north-harbour-sacred-heart-church-corporation/` — exact legal name; **no funds configured yet** (Mary Ann's setup still pending). Registered address shows **51 Barrows Rd, St. John's, NL A1A 1G8** (likely a board member — Mary Ann to confirm intentional).
+- **CRA registration number: 774630016RR0001** — the BN outstanding from Mary Ann since Apr 25. Board to decide whether to display it on the site (recommended; offered to Terry).
+- **Site updated same day:** donate links on the homepage + AGM post now point **directly** at the profile (was the generic canadahelps.org homepage since Apr 17). Committed `01df6b6`, deployed, verified live.
+- **Emails drafted for Michael to send:** (1) **Terry** — AGM post live + Facebook share link, the CanadaHelps find, BN-display offer, payment-offer response placeholder; (2) **Mary Ann** — click-by-click CanadaHelps setup (create "Cemetery Perpetual Care Fund" + add to donation form; tribute/in-memory giving already built into CanadaHelps), sourced from CanadaHelps' own help docs.
 
 ### July 23, 2026 — Manual posting chosen over Option 3; Updates page built + first post (AGM)
 
@@ -515,6 +524,10 @@ Welcome email to Michael with structural feedback on the site. Key points:
 | Jun 8, 2026 | Email preserved through cutover | MX/SPF/DKIM/mail records untouched + verified via dig |
 | Jun 8, 2026 | HTTPS live + enforced | Let's Encrypt cert issued (needed a custom-domain re-save nudge); Enforce HTTPS ON — site fully secure |
 | Jun 8, 2026 | DreamHost cost-saving deferred | Hosting plan still billed (renews 2026-07-30); Melvin to downgrade to email-only (~$24/yr) before renewal |
+| Jul 23, 2026 | Manual posting over Option 3 admin panel | Terry's call post-Squarespace discussion; Michael posts updates on request (~10 min each, template + runbook in place) |
+| Jul 23, 2026 | Church Updates page live + AGM post published | `updates.html` with shareable per-post anchors; homepage tab + footer wired |
+| Jul 23, 2026 | **CanadaHelps profile + CRA # found** | Profile located by search; donate links now direct; **BN 774630016RR0001** captured — closes Apr 17 + Apr 25 items |
+| Jul 23, 2026 | Mary Ann tasked with fund setup | Terry approved outreach; click-by-click sent for "Cemetery Perpetual Care Fund" + tribute giving confirmation |
 
 ---
 
