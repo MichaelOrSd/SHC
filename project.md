@@ -259,6 +259,15 @@ A custom-branded HTML email template for Kit, matching the Classic Heritage site
 - Budget set at ~$800-1200 for Phase 1 basic site
 - Scheduled Mar 8 meeting at 1:00 PM with Terry
 
+### July 23, 2026 — Manual posting chosen over Option 3; Updates page built + first post (AGM)
+
+Terry's decision after the June meeting + Squarespace discussion: **skip the $2,450 admin panel for now — Michael posts manually** ("first of a few updates coming over the summer"). Built same day:
+
+- **New `site/updates.html`** — "Church Updates" page in the history.html style (parchment, Cinzel/Garamond, crimson top bar). Each post = dated `<article>` with a shareable anchor (`#2026-07-23-agm-update`) for Facebook/newsletter linking. Embedded **POST TEMPLATE comment** in the file + runbook `docs/how-to-post-an-update.md` (~10 min/post process).
+- **First post: AGM Update** (Terry's text, light copyedit only — fixed "helds"→"held"; lists for board members + key projects; linked e-transfer/CanadaHelps/subscribe). Key facts published: ~$100K raised to date; ~$3,500/yr operating; ~$13K in bank; back-window replacement in July; topsoil/seeding top priority ($15–20K est.); columbarium, accessible door/step, stained glass on the future list.
+- **Homepage:** Updates tab placeholder → latest-post links + "View all updates →"; footer "Church Updates" link added.
+- **From Terry's email:** ✅ approved contacting Mary Ann re: CanadaHelps funds (in-memory + Perpetual Cemetery Fund — instructions already drafted, **send them**); Terry offered e-transfer payment for this work (Michael to respond); Terry will share the post link on the Community Facebook page once live — **send him the anchor link**.
+
 ### June 8, 2026 — 🚀 LAUNCHED on nhshc.ca (DNS cutover, email preserved)
 
 Terry gave the go-ahead; site is **live at https://nhshc.ca** (GitHub Pages). Cutover done live with Michael in the DreamHost panel — **zero email disruption.**

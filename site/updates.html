@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Church Updates — news and announcements from North Harbour Sacred Heart Church, St. Mary's Bay, Newfoundland.">
+<meta name="robots" content="index, follow">
+<meta property="og:title" content="Church Updates — North Harbour Sacred Heart Church">
+<meta property="og:description" content="News and announcements from North Harbour Sacred Heart Church, St. Mary's Bay, NL.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://nhshc.ca/updates.html">
+<title>Church Updates — North Harbour Sacred Heart Church</title>
+<link rel="icon" href="favicon.ico">
+<link rel="stylesheet" href="fonts/fonts.css">
+<style>
+  :root {
+    --crimson: #8B0000;
+    --gold: #B8962E;
+    --cream: #FAF6EE;
+    --ink: #1C1008;
+    --ink-soft: #3A2E1E;
+    --stone: #8C7B6A;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--cream);
+    color: var(--ink);
+    font-family: 'EB Garamond', Georgia, serif;
+    font-size: 1.18rem;
+    line-height: 1.78;
+  }
+  .doc-nav {
+    background: var(--crimson);
+    color: var(--cream);
+    padding: 0.9rem 1.5rem;
+  }
+  .doc-nav a {
+    color: var(--cream);
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-size: 0.82rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+  }
+  .doc-nav a:hover { color: #D4AF55; }
+  .wrap {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 4rem 1.6rem 5rem;
+  }
+  .eyebrow {
+    font-family: 'Lato', sans-serif;
+    font-size: 0.78rem;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--gold);
+    display: block;
+    text-align: center;
+    margin-bottom: 1.1rem;
+  }
+  h1 {
+    font-family: 'Cinzel', serif;
+    font-weight: 600;
+    font-size: 2.2rem;
+    line-height: 1.25;
+    color: var(--crimson);
+    text-align: center;
+    margin-bottom: 1.1rem;
+  }
+  .page-intro {
+    text-align: center;
+    font-style: italic;
+    color: var(--ink-soft);
+  }
+  .rule {
+    width: 90px;
+    height: 1px;
+    background: var(--gold);
+    border: 0;
+    margin: 2.4rem auto;
+  }
+  /* ── Posts ── */
+  .post { margin-bottom: 1rem; }
+  .post-date {
+    font-family: 'Lato', sans-serif;
+    font-size: 0.78rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--gold);
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  .post h2 {
+    font-family: 'Cinzel', serif;
+    font-weight: 600;
+    font-size: 1.55rem;
+    color: var(--crimson);
+    margin: 0 0 1.2rem;
+  }
+  .post p { margin-bottom: 1.2rem; }
+  .post ul { margin: 0 0 1.3rem 1.4rem; }
+  .post li { margin-bottom: 0.35rem; }
+  .post a { color: var(--crimson); border-bottom: 1px solid var(--gold); text-decoration: none; }
+  .post a:hover { color: var(--gold); }
+  .post figure { margin: 1.8rem 0; }
+  .post figure img { width: 100%; height: auto; display: block; }
+  .post figcaption {
+    font-style: italic;
+    font-size: 0.98rem;
+    color: var(--stone);
+    text-align: center;
+    margin-top: 0.6rem;
+  }
+  .post-divider {
+    text-align: center;
+    color: var(--gold);
+    font-size: 1rem;
+    letter-spacing: 1.2em;
+    padding-left: 1.2em; /* balance letter-spacing */
+    margin: 3rem 0;
+  }
+  .back-home {
+    display: inline-block;
+    margin-top: 2.5rem;
+    font-family: 'Lato', sans-serif;
+    font-size: 0.82rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--crimson);
+    text-decoration: none;
+    border-bottom: 1px solid var(--gold);
+    padding-bottom: 2px;
+  }
+  @media print {
+    .doc-nav { display: none; }
+    body { background: #fff; font-size: 12pt; }
+    .wrap { padding: 0; max-width: 100%; }
+  }
+</style>
+</head>
+<body>
+
+<nav class="doc-nav" aria-label="Document navigation">
+  <a href="index.html">&#8592; Back to Sacred Heart Church</a>
+</nav>
+
+<main class="wrap">
+
+  <span class="eyebrow">News &amp; Announcements</span>
+  <h1>Church Updates</h1>
+  <p class="page-intro">News from North Harbour Sacred Heart Church &mdash; newest first.<br>
+  To receive updates by email, <a href="index.html#newsletter" style="font-style:normal; color:var(--crimson); border-bottom:1px solid var(--gold); text-decoration:none;">subscribe here</a>.</p>
+  <hr class="rule">
+
+<!-- ═══════════════════════════════════════════════════════════════════
+     HOW TO ADD A NEW POST
+     1. Copy the TEMPLATE block below (between the "POST TEMPLATE" lines).
+     2. Paste it directly BELOW this comment (newest post goes first).
+     3. Fill in: the id (yyyy-mm-dd-short-slug), date, title, and body.
+     4. Photo? Put a web-sized copy (~1200px wide) in Images/updates/
+        and uncomment the <figure> block.
+     5. Update the "Updates" tab list in index.html (latest 3 posts).
+     6. Commit + push — the deploy takes it live.
+     Full runbook: docs/how-to-post-an-update.md
+
+     ── POST TEMPLATE (copy from next line) ─────────────────────────
+  <article class="post" id="yyyy-mm-dd-short-slug">
+    <span class="post-date">Month D, 2026</span>
+    <h2>Post Title Here</h2>
+    <p>First paragraph…</p>
+    <p>More paragraphs as needed…</p>
+    <figure>
+      <img src="Images/updates/photo-name.jpg" alt="Describe the photo for screen readers">
+      <figcaption>Optional caption in italics.</figcaption>
+    </figure>
+  </article>
+  <div class="post-divider" aria-hidden="true">&#10022; &#10022; &#10022;</div>
+     ── END POST TEMPLATE ───────────────────────────────────────────
+     ═══════════════════════════════════════════════════════════════ -->
+
+  <article class="post" id="2026-07-23-agm-update">
+    <span class="post-date">July 23, 2026</span>
+    <h2>AGM Update</h2>
+
+    <p>The Church Corporation held its Annual General Meeting in North Harbour on June&nbsp;26th at the Community Center. Present from the Board:</p>
+
+    <ul>
+      <li>Mary Ann Butt</li>
+      <li>Ann Power</li>
+      <li>Mona Pearce</li>
+      <li>Terry Power</li>
+    </ul>
+
+    <p>As this constituted a quorum, the meeting was called to order at 7:05&nbsp;PM. There were approximately 12 members of the community present.</p>
+
+    <p>The Board gave a brief overview of operations to date. We have raised just under $100,000.00 to date. Key spending priorities had included the church purchase (including incorporating and gaining charitable status), new shingles and mini-splits for the church, major tree/brush clearing from the cemetery, excavating and levelling, as well as crushed stone for the parking lot. Operating costs run around $3,500 per year (mostly insurance and NL Power bill). There is currently approximately $13,000.00 in the bank. The board presented that it is necessary to keep two years of operating costs on hand at all times.</p>
+
+    <p>We also discussed the recently launched website and gained positive feedback from the members present. You can find us at <a href="https://nhshc.ca">nhshc.ca</a>.</p>
+
+    <p>Key future initiatives were also discussed and prioritized. The board was excited to announce that replacement of the two back windows would be happening in early July. More on that in the coming weeks, including some before and after pictures.</p>
+
+    <p><strong>Key projects ahead:</strong></p>
+    <ul>
+      <li>Topsoil and seeding on cemetery grounds</li>
+      <li>New door and step (ideally fully accessible)</li>
+      <li>Cemetery columbarium</li>
+      <li>Stained glass inserts for new and existing windows</li>
+    </ul>
+
+    <p>Exact pricing on each of the above will be obtained and communicated in the coming months. In the meantime, it was unanimously agreed that topsoil and seeding for the newly cleared areas of the cemetery was our top priority. Estimated cost is $15,000&ndash;$20,000.00.</p>
+
+    <p>The Board also discussed the need to broaden our fundraising efforts. Much of the past funding has come from a small group of committed donors. We encourage everyone to reach out to family and friends near and far to begin contributing to our continued efforts to both restore our cemetery and keep our church in good physical condition. You can donate either by e-transfer at <a href="mailto:northharbourshc@gmail.com">northharbourshc@gmail.com</a>, or via <a href="https://www.canadahelps.org/" target="_blank" rel="noopener">CanadaHelps</a> under <strong>North Harbour Sacred Heart Church</strong>. Charitable receipts will be issued.</p>
+
+    <p>Thanks to all who attended. Please share this note on your social media accounts, and we encourage everyone to <a href="index.html#newsletter">subscribe</a> to receive our future updates.</p>
+  </article>
+
+  <a class="back-home" href="index.html">&#8592; Back to the main site</a>
+
+</main>
+
+</body>
+</html>
