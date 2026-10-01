@@ -67,6 +67,10 @@ NHSHC/
 - Newsletter area renamed **"Stay in Touch"** (nav tab + H2) and restructured: eyebrow → intro → email + Subscribe (✉ icon, gold glow) → **tabs: Newsletters | Updates**. Updates tab is a **placeholder pending board content**.
 - **Still open:** Updates-tab content; final Stay-in-Touch/Subscribe wording (team may revise).
 
+### Oct 1, 2026 Status
+- Local folder renamed `SHC` → `NHSHC` (GitHub repo is still `MichaelOrSd/SHC`).
+- **Kit problem:** all 10 subscribers are **Unconfirmed** (double opt-in never clicked), so no broadcast reaches anyone. None have joined since the Jul 23 AGM update. Fix pending Terry's OK; see `project.md` "Current (Oct 1, 2026)".
+
 ## Church Leadership (Board of Directors) — Updated May 19, 2026
 Names per Mona's May 19 list (maiden names in parentheses for female members, so readers connect them to North Harbour; members may opt out via Michael). Corrected surnames vs. prior list: Ida (Linehan) **Young**; Mona (Bonia) Pearce.
 - **President:** Terry Power
