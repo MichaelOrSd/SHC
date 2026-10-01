@@ -29,3 +29,19 @@ backup/live-site/.zshrc
 backup/live-site/.cache/
 backup/live-site/.php/
 backup/live-site/nhshc.ca/.dh-diag/
+
+# Security audit 2026-10-01: secrets, keys, AI chat logs, screenshots
+!.env.example
+!.env.sample
+!.env.*.example
+*.pfx
+*.ovpn
+id_rsa*
+id_ed25519*
+*accessKeys*.csv
+*credentials*.csv
+*backup_code*
+[Cc][Hh][Aa][Tt].[Mm][Dd]
+[Cc][Hh][Aa][Tt]_readable.md
+Screenshot*.png
+Screen Shot*.png
