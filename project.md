@@ -266,7 +266,7 @@ A custom-branded HTML email template for Kit, matching the Classic Heritage site
 - Suggested to Terry: first Kit broadcast (fall update); share the sign-up link on the Community Facebook page; directors forward it to family; a QR-code sign at the church and cemetery; a late-November newsletter before Giving Tuesday (Dec 1) and year-end receipts.
 - [ ] Send the reply to Terry (unsent Apple Mail draft "Newsletter subscribers"); delete the old "Re: A small favour" draft
 - [ ] Fix Kit confirmation: turn off double opt-in on form 9308809 and get the 9 existing subscribers deliverable
-- [ ] Commit the rename-related doc edits
+- [x] Commit the rename-related doc edits (`644d76c`)
 
 ### July 23, 2026 (later) — CanadaHelps profile + CRA number FOUND; two emails drafted
 
