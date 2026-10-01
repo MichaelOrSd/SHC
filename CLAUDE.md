@@ -11,7 +11,7 @@ This is the **Sacred Heart Church** website rebuild for the parish in **North Ha
 ## Repository Structure
 
 ```
-SHC/
+NHSHC/
 ├── CLAUDE.md              # This file — project guidance for Claude Code
 ├── project.md             # Central project tracker — phases, decisions, budget, meeting notes
 ├── .env                   # Credentials (DO NOT read or commit — blocked by .claude/ignore and .gitignore)

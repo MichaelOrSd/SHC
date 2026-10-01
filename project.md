@@ -259,6 +259,15 @@ A custom-branded HTML email template for Kit, matching the Classic Heritage site
 - Budget set at ~$800-1200 for Phase 1 basic site
 - Scheduled Mar 8 meeting at 1:00 PM with Terry
 
+### October 1, 2026: Subscriber check + folder renamed to NHSHC
+
+- Local project folder renamed `~/Desktop/VSC/SHC` to `~/Desktop/VSC/NHSHC` (the GitHub repo and `michaelorsd.github.io/SHC` are unchanged).
+- Terry asked whether subscribers went up after the last update. Kit shows **10 subscribers (9 excluding Michael)**, all signed up Jun 9–27, **none since the July update**, and **all Unconfirmed** (double opt-in never clicked), so broadcasts can't reach anyone yet. No Kit broadcast has been sent.
+- Suggested to Terry: first Kit broadcast (fall update); share the sign-up link on the Community Facebook page; directors forward it to family; a QR-code sign at the church and cemetery; a late-November newsletter before Giving Tuesday (Dec 1) and year-end receipts.
+- [ ] Send the reply to Terry (unsent Apple Mail draft "Newsletter subscribers"); delete the old "Re: A small favour" draft
+- [ ] Fix Kit confirmation: turn off double opt-in on form 9308809 and get the 9 existing subscribers deliverable
+- [ ] Commit the rename-related doc edits
+
 ### July 23, 2026 (later) — CanadaHelps profile + CRA number FOUND; two emails drafted
 
 While prepping Terry's reply, Michael located the church's **CanadaHelps charity profile** via web search — closing two items open since April:
@@ -441,7 +450,7 @@ Welcome email to Michael with structural feedback on the site. Key points:
 ### Feb 27, 2026 - Project Kickoff
 - Reviewed current site at nhshc.ca
 - Identified broken placeholder links and missing content
-- Project directory initialized at `/Users/darkdesk/Desktop/VSC/SHC/`
+- Project directory initialized at `/Users/darkdesk/Desktop/VSC/NHSHC/` (folder renamed from SHC on 2026-10-01)
 - Created CLAUDE.md and project.md for tracking
 
 ---
