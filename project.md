@@ -92,7 +92,7 @@ Rebuild and modernize the Sacred Heart Church website (nhshc.ca) for the parish 
 - [ ] **Send Terry the "Newsletter subscribers" reply**: unsent Apple Mail draft, Kit screenshot attached (check the attachment). Delete the old "Re: A small favour" draft.
 - [ ] **Fix Kit double opt-in**: all 10 subscribers are Unconfirmed, so broadcasts reach no one. Turn off the confirmation email on form 9308809, then work out how to make the 9 existing subscribers deliverable (not yet researched).
 - [ ] **Waiting on Terry**: which of the six suggested actions to do (fix sign-up, first Kit newsletter, Facebook share, board forwards, QR sign, late-Nov Giving Tuesday newsletter). Fall update content if he has any.
-- [ ] **Send Terry a thank-you for the testimonial** (approved Sep 30) and confirm the credit line "Terry Power, President, North Harbour Sacred Heart Church" (he replied "That's fine" Sep 30).
+- [ ] **Send Terry a thank-you for the testimonial** (approved Sep 30; credit line already confirmed).
 
 ### Current (May 14, 2026)
 - [x] **Mona accepted single-page approach (May 14)** — after Michael's explainer email walking her through the scrolling single-page format, Mona replied: "It's all as clear as mud :-). Thank you for explaining it to me. I hadn't worked on a scrolling website format in the past." Multi-page restructure proposal effectively withdrawn.
@@ -543,6 +543,8 @@ Welcome email to Michael with structural feedback on the site. Key points:
 | Jul 23, 2026 | Church Updates page live + AGM post published | `updates.html` with shareable per-post anchors; homepage tab + footer wired |
 | Jul 23, 2026 | **CanadaHelps profile + CRA # found** | Profile located by search; donate links now direct; **BN 774630016RR0001** captured — closes Apr 17 + Apr 25 items |
 | Jul 23, 2026 | Mary Ann tasked with fund setup | Terry approved outreach; click-by-click sent for "Cemetery Perpetual Care Fund" + tribute giving confirmation |
+| Sep 30, 2026 | Site used as case study for church outreach | nhshc.ca linked in cold emails to 16 NL churches (see `../Clients/ChurchWebsiteLeads/`). Emailed Terry asking permission, a testimonial, and OK to mention hosting drop (~$170 → ~$24/yr) |
+| Sep 30, 2026 | Terry approved reference, testimonial and hosting-cost mention | Quote saved in `../Clients/ChurchWebsiteLeads/testimonial.md`. Credit "Terry Power, President, North Harbour Sacred Heart Church" confirmed ("That's fine", Sep 30) |
 | Oct 1, 2026 | Kit list audit | 9 real subscribers, all from Jun 9–27, none since the July update, **all Unconfirmed**. Suggested 6 growth actions to Terry; awaiting his pick |
 | Oct 1, 2026 | Local folder renamed SHC → NHSHC | Repo, GitHub Pages URL and Claude memory carried over; commits `644d76c`, `bc1141c` pushed |
 
